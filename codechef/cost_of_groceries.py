@@ -1,6 +1,5 @@
 i = input
 
-# cook your dish here
 for _ in range(int(i())):
     n, x = map(int, i().split())
     freshness_value_of_items = list(map(int, i().split()))
