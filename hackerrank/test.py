@@ -1,2 +1,3 @@
-s = 'mMMMEeeeoWW'
-print(set(s))
+import time
+
+print(time.time())
