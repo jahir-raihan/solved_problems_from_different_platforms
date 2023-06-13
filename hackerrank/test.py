@@ -1,12 +1,12 @@
 import requests
+import PyPDF2 as pdf_reader
 
-url = "https://checkout.sandbox.bka.sh/v1.2.0-beta/checkout/payment/create"
+file = open('Resume.pdf', 'rb', )
+reader = pdf_reader.PdfReader(file)
+print(len(reader.pages))
 
-headers = {
-    "accept": "application/json",
-    "content-type": "application/json"
-}
+page = reader.pages[0]
+lst = f'{page.extract_text()}'
 
-response = requests.post(url, headers=headers)
-
-print(response.text)
+lst = lst.replace(' ', '')
+print(lst)
