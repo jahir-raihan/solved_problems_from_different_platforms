@@ -1,8 +1,8 @@
-s = 'AGIS'
+s = 'ABC'
 length = len(s)
-rows = 3
+rows = 1
 columns = rows - 2
-lst = [[0 for _ in range(length//2+1)] for _ in range(rows+1)]
+lst = [[0 for _ in range(length)] for _ in range(rows+1)]
 
 i, turn = 0, 0
 cur_idx = 0
@@ -26,6 +26,8 @@ while i < length:
             k -= 1
         cur_idx += columns
         i += columns
+    else:
+        turn = 0
 
 res = ''
 for l in lst:
