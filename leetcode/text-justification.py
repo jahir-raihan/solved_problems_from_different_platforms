@@ -1,55 +1,57 @@
-words = ["Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"]
-maxWidth = 20
+class Solution:
+    def __init__(self):
+        self.separated_lines = []
+        self.words = None
+        self.maxWidth = None
 
-final_res = []
-word_count = -1
-char_count = 0
+    def get_line(self, i):
 
-
-tmp_arr = []
-i = 0
-while i < len(words):
-
-    condition = word_count + char_count + len(words[i]) > maxWidth
-
-    if condition:
-        exp = maxWidth - (word_count + char_count)
-        space = exp // 2
-        extra = exp % word_count if word_count > 0 else 0
-        res = ''
-
-        first_one = 1
-        for w in tmp_arr:
-            to_add = ''
-            if exp - extra > 0:
-                to_add += '#' * space
-                exp -= space
-            if word_count > 0 and first_one:
-                to_add += '#' * extra
-            elif word_count > 0:
-                to_add += '#'
-            res += w + to_add
-
-            first_one = 0
-            word_count -= 1
-        final_res.append(res)
-        tmp_arr = []
+        cur_count = 0
+        cur_line = []
         word_count = -1
-        char_count = 0
 
-    else:
-        word_count += 1
-        char_count += len(words[i])
-        tmp_arr.append(words[i])
-        i += 1
+        while i < len(self.words) and cur_count + word_count + len(self.words[i]) < self.maxWidth:
+            cur_count += len(self.words[i])
+            cur_line.append(self.words[i])
+            i += 1
+            word_count += 1
 
+        self.separated_lines.append([cur_line, cur_count + word_count])
 
-res = ''
-for w in tmp_arr:
-    res += w + '#'
-res = res + '#' * (maxWidth - len(res))
-final_res.append(res)
+        return i
 
-print(final_res)
+    def add_spaces(self, line):
 
+        spaces = self.maxWidth - line[1]
 
+        if len(line[0]) == 1:
+            line[0][0] = line[0][0] + ' ' * spaces
+            return
+
+        i = 0
+        while spaces > 0:
+            exp = i % len(line[0])
+            if exp != len(line[0]) - 1:
+                line[0][exp] = line[0][exp] + ' '
+                spaces -= 1
+            i += 1
+
+    def fullJustify(self, words, maxWidth: int):
+
+        self.words = words
+        self.maxWidth = maxWidth
+
+        i = 0
+        while i < len(self.words):
+            i = self.get_line(i)
+
+        for line in self.separated_lines[:-1]:
+            self.add_spaces(line)
+
+        self.separated_lines[-1][0][-1] = self.separated_lines[-1][0][-1] + ' ' * \
+                                          (self.maxWidth - self.separated_lines[-1][1])
+
+        for l in range(len(self.separated_lines)):
+            self.separated_lines[l] = ' '.join(self.separated_lines[l][0])
+
+        return self.separated_lines
