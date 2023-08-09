@@ -1,44 +1,42 @@
-s = "ADOBECODEBANC"
-t = "ABC"
+import collections
 
-dic = {}
-target_count = 0
-for c in t:
-    try:
-        dic[c] += 1
-    except:
-        dic[c] = 1
-    target_count += 1
 
-res = 9999999999
-final_res = ''
-i = 0
-while i < len(s):
+class Solution(object):
+    def minWindow(self, search_string, target):
 
-    dic_copy = dic.copy()
-    j = i
-    c_target_count = target_count
-    second_found_val = None
-    while c_target_count > 0 and j < len(s):
-        try:
-            val = dic_copy[s[j]]
-            if val > 0:
-                dic_copy[s[j]] -= 1
-                c_target_count -= 1
+        target_letter_counts = collections.Counter(target)
+        start = 0
+        end = 0
+        min_window = ""
+        target_len = len(target)
 
-                if second_found_val is None and j > i:
-                    second_found_val = j
-        except:
-            pass
-        j += 1
+        for end in range(len(search_string)):
+            # If we see a target letter, decrease the total target letter count
+            if target_letter_counts[search_string[end]] > 0:
+                target_len -= 1
 
-    if j - i < res and c_target_count == 0:
-        final_res = s[i:j]
-        res = j - i
+            # Decrease the letter count for the current letter
+            # If the letter is not a target letter, the count just becomes -ve
+            target_letter_counts[search_string[end]] -= 1
 
-    if second_found_val:
-        i = second_found_val
-    else:
-        i += 1
+            # If all letters in the target are found:
 
-print(final_res)
+            while target_len == 0:
+                window_len = end - start + 1
+                if not min_window or window_len < len(min_window):
+                    # Note the new minimum window
+                    min_window = search_string[start: end + 1]
+
+                # Increase the letter count of the current letter
+                target_letter_counts[search_string[start]] += 1
+
+                # If all target letters have been seen and now, a target letter is seen with count > 0
+                # Increase the target length to be found. This will break out of the loop
+                if target_letter_counts[search_string[start]] > 0:
+                    target_len += 1
+
+                start += 1
+
+        return min_window
+
+
