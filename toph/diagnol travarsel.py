@@ -1,13 +1,22 @@
-import math
+t = 1
 
-for i in range(int(input())):
-    x, y = map(int, input().split())
-    if x == 1 and y == 1:
-        print(f'Case {i + 1}: YES')
+for _ in range(t):
+    n, x, y = 4, 6, 5
 
+    need = n - (x // 2)
+    if need <= 0:
+        print("YES")
     else:
-        res = math.sqrt(((1 - x) ** 2) + ((1 - y) ** 2))
-        if res == int(res) and res > 0:
-            print(f'Case {i + 1}: YES')
+
+        got = 2 * need
+        x -= got
+        need = n - (x // 2)
+        if x <= 0:
+            print("NO")
         else:
-            print(f'Case {i + 1}: NO')
+
+            for i in range(y // 3):
+                if got > 0:
+                    need -= 1
+                    got -= 1
+            print("YES" if need <= 0 else "NO")
