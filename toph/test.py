@@ -1,41 +1,41 @@
-# import math
-#
-# t = 1
-#
-# for _ in range(t):
-#     h, x, y1, y2, k = 117, 21, 35, 10, 2#map(int, input().split())
-#
-#     x = math.ceil(h / x)
-#     print("x", x)
-#     y = math.ceil(h / y1)
-#     print('y', y)
-#     if y > k:
-#         tmp = math.ceil((h - (k * y1)) / y2)
-#         y = (y - 1) + tmp
-#
-#     print(min(x, y))
+import math
+
+t = 1
+
+for _ in range(t):
+    h, x, y1, y2, k = 117, 21, 35, 10, 2#map(int, input().split())
+
+    x = math.ceil(h / x)
+    print("x", x)
+    y = math.ceil(h / y1)
+    print('y', y)
+    if y > k:
+        tmp = math.ceil((h - (k * y1)) / y2)
+        y = (y - 1) + tmp
+
+    print(min(x, y))
 
 
 t = 1
 
-# for _ in range(t):
-#     n = 4
-#     s = ['x', 'x', 'y', 'y']
-#     remove = None
-#
-#     for i in range(n - 2, -1, -1):
-#         if ord(s[i]) > ord(s[i + 1]):
-#             remove = i
-#     s.pop(remove)
-#     print(''.join(s[:-1]))
+for _ in range(t):
+    n = 4
+    s = ['x', 'x', 'y', 'y']
+    remove = None
 
-# x, i = 22, 0
-#
-# for i in range(0, x, 5):
-#     print('Real')
-#     if i == 5 or i == 15:
-#         continue
-#     print("madrid")
+    for i in range(n - 2, -1, -1):
+        if ord(s[i]) > ord(s[i + 1]):
+            remove = i
+    s.pop(remove)
+    print(''.join(s[:-1]))
+
+x, i = 22, 0
+
+for i in range(0, x, 5):
+    print('Real')
+    if i == 5 or i == 15:
+        continue
+    print("madrid")
 t = 1
 
 for _ in range(t):
