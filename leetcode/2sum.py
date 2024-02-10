@@ -1,4 +1,5 @@
-numbers = ["Number list"]
+target = int(input())
+numbers = [int(i) for i in input().split()]
 
 
 def get_sum(n, target):
@@ -11,3 +12,6 @@ def get_sum(n, target):
             l += 1
         else:
             r -= 1
+
+
+print(get_sum(numbers, target))
