@@ -7,3 +7,4 @@ for _ in range(t):
     for i in a:
         res += abs(i)
     print(res)
+
