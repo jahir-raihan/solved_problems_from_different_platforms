@@ -1,0 +1,100 @@
+{
+  "domain": "google.com",
+  "base_domain": "google.com",
+  "dnssec": false,
+  "ns": {
+    "hostnames": [
+      "ns2.google.com",
+      "ns3.google.com",
+      "ns4.google.com",
+      "ns1.google.com"
+    ],
+    "warnings": []
+  },
+  "mx": {
+    "hosts": [
+      {
+        "preference": 10,
+        "hostname": "smtp.google.com",
+        "addresses": [
+          "142.250.4.27",
+          "142.251.10.26",
+          "142.251.10.27",
+          "142.251.12.26",
+          "2404:6800:4003:c02::1a",
+          "2404:6800:4003:c02::1b",
+          "2404:6800:4003:c1a::1a",
+          "2404:6800:4003:c1a::1b",
+          "74.125.24.27"
+        ],
+        "tls": false,
+        "starttls": false
+      }
+    ],
+    "warnings": [
+      "The resolution lifetime expired after 2.100 seconds: Server Do53:192.168.0.1@53 answered The DNS operation timed out.",
+      "The reverse DNS of 2404:6800:4003:c02::1b is sc-in-f27.1e100.net, but the A/AAAA DNS records for sc-in-f27.1e100.net do not resolve to 2404:6800:4003:c02::1b",
+      "sf-in-f27.1e100.net: SSL error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'sf-in-f27.1e100.net'. (_ssl.c:997)"
+    ]
+  },
+  "spf": {
+    "record": null,
+    "valid": false,
+    "dns_void_lookups": null,
+    "error": "The resolution lifetime expired after 2.107 seconds: Server Do53:192.168.0.1@53 answered ; Server Do53:192.168.0.1@53 answered The DNS operation timed out."
+  },
+  "dmarc": {
+    "record": "v=DMARC1; p=reject; rua=mailto:mailauth-reports@google.com",
+    "valid": true,
+    "location": "google.com",
+    "warnings": [],
+    "tags": {
+      "v": {
+        "value": "DMARC1",
+        "explicit": true
+      },
+      "p": {
+        "value": "reject",
+        "explicit": true
+      },
+      "rua": {
+        "value": [
+          {
+            "scheme": "mailto",
+            "address": "mailauth-reports@google.com",
+            "size_limit": null
+          }
+        ],
+        "explicit": true
+      },
+      "adkim": {
+        "value": "r",
+        "explicit": false
+      },
+      "aspf": {
+        "value": "r",
+        "explicit": false
+      },
+      "fo": {
+        "value": "0",
+        "explicit": false
+      },
+      "pct": {
+        "value": 100,
+        "explicit": false
+      },
+      "rf": {
+        "value": "afrf",
+        "explicit": false
+      },
+      "ri": {
+        "value": 86400,
+        "explicit": false
+      },
+      "sp": {
+        "value": "reject",
+        "explicit": false
+      }
+    }
+  }
+}
