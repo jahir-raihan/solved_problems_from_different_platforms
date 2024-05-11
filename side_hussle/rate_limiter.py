@@ -32,7 +32,7 @@ class RateLimitedCalculator:
         self.used = 0
         self.current_minute = datetime.now().minute
 
-    def getSum(self, a, b):
+    def getSum(self, a, b) -> int:
 
         # Get current execution time
         execution_minute = datetime.now().minute
@@ -86,7 +86,7 @@ class RateLimitedCalculatorOffline:
         self.limit = limit
         self.data = self.get_or_load_data()
 
-    def get_or_load_data(self):
+    def get_or_load_data(self) -> dict:
 
         """
         Create or get time_tracker json file for tracking limit, minute and used count
@@ -111,14 +111,14 @@ class RateLimitedCalculatorOffline:
                 json.dump(data, file, indent=4)
         return data
 
-    def save_data(self):
+    def save_data(self) -> None:
         with open('../toph/time_tracker.json', 'w') as file:
             # Comment below line, and you'll get stuck with fixed limit value except deleting the json file :).
             self.data['limit'] = self.limit
 
             json.dump(self.data, file, indent=4)
 
-    def getSum(self, a, b):
+    def getSum(self, a, b) -> int:
 
         # Get current execution time
         execution_minute = datetime.now()
@@ -130,7 +130,7 @@ class RateLimitedCalculatorOffline:
         if execution_minute.minute == last_tracked_time.minute:
 
             # Check if limit is equal to used then throw error if it is
-            if self.data["limit"] == self.data["used"]:
+            if self.data["limit"]  == self.data["used"]:
                 raise Exception("Current minute limit reached!")
 
             # Else increase the used count
