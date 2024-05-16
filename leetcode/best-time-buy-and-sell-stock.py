@@ -11,4 +11,4 @@ class Solution:
                 res = max(res, prices[i] - cur_val)
             else:
                 cur_val = prices[i]
-        return r
+        return res
