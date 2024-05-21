@@ -9,3 +9,4 @@ lst = sorted(lst.items(), key=lambda x: x[1]["scores"], reverse=True)
 import pprint
 pprint.pprint(lst)
 print(len(lst))
+
