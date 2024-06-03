@@ -1,12 +1,1531 @@
-lst = {"pb-IF5QURkxJw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "263", "scores": "0"}, "pb-IF4wURcNFw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "257", "scores": "0"}, "pb-IF4tKBYa": {"deaths": "30", "games": "12", "kills": "20", "rank": "48", "scores": "375"}, "pb-IF4CVGtaLA==": {"deaths": "4", "games": "1", "kills": "0", "rank": "225", "scores": "0"}, "pb-IF5SUBMRDg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "246", "scores": "0"}, "pb-IF4BU0EiEw==": {"deaths": "7", "games": "6", "kills": "1", "rank": "199", "scores": "5"}, "pb-IF4-U3AIEA==": {"deaths": "38", "games": "9", "kills": "12", "rank": "108", "scores": "95"}, "pb-IF4nUkExNg==": {"deaths": "49", "games": "22", "kills": "40", "rank": "54", "scores": "305"}, "pb-IF4pURUaNw==": {"deaths": "7", "games": "6", "kills": "1", "rank": "200", "scores": "5"}, "pb-IF4lI08x": {"deaths": "215", "games": "53", "kills": "67", "rank": "42", "scores": "430"}, "pb-IF49Ulg4PA==": {"deaths": "2", "games": "2", "kills": "9", "rank": "79", "scores": "175"}, "pb-IF4zVGEjIQ==": {"deaths": "27", "games": "15", "kills": "33", "rank": "67", "scores": "215"}, "pb-IF4WVHIiAQ==": {"deaths": "7", "games": "2", "kills": "5", "rank": "149", "scores": "35"}, "pb-IF5TVXgjUg==": {"deaths": "10", "games": "3", "kills": "4", "rank": "161", "scores": "25"}, "pb-IF41URA5Mw==": {"deaths": "7", "games": "4", "kills": "3", "rank": "178", "scores": "15"}, "pb-IF4NUHMaVA==": {"deaths": "55", "games": "13", "kills": "24", "rank": "77", "scores": "180"}, "pb-IF4dUFUBLg==": {"deaths": "22", "games": "7", "kills": "8", "rank": "133", "scores": "45"}, "pb-IF4LV1FcMg==": {"deaths": "87", "games": "40", "kills": "94", "rank": "15", "scores": "1470"}, "pb-IF5dU1Q-IQ==": {"deaths": "37", "games": "14", "kills": "40", "rank": "36", "scores": "500"}, "pb-IF4NURMdAg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "254", "scores": "0"}, "pb-IF4AUBM4CA==": {"deaths": "1", "games": "2", "kills": "1", "rank": "212", "scores": "5"}, "pb-IF5SURgeNw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "253", "scores": "0"}, "pb-IF4vU1Q9MQ==": {"deaths": "6", "games": "2", "kills": "3", "rank": "179", "scores": "15"}, "pb-IF5TURgsFw==": {"deaths": "19", "games": "7", "kills": "3", "rank": "168", "scores": "20"}, "pb-IF4NVWIYVg==": {"deaths": "28", "games": "17", "kills": "36", "rank": "39", "scores": "467"}, "pb-IF4vU3gZLw==": {"deaths": "4", "games": "2", "kills": "1", "rank": "194", "scores": "10"}, "pb-IF4wVWoGMg==": {"deaths": "13", "games": "5", "kills": "13", "rank": "71", "scores": "210"}, "pb-IF4gU0kkUQ==": {"deaths": "11", "games": "3", "kills": "5", "rank": "154", "scores": "30"}, "pb-IF4lUHVcUA==": {"deaths": "3", "games": "1", "kills": "2", "rank": "172", "scores": "20"}, "pb-IF4FVRQTIA==": {"deaths": "11", "games": "4", "kills": "1", "rank": "192", "scores": "10"}, "pb-IF4IVWk8Jg==": {"deaths": "16", "games": "7", "kills": "9", "rank": "97", "scores": "125"}, "pb-JiNJARBdXEZJXVlHGUJYVVNAEEhbQldA": {"deaths": "29", "games": "7", "kills": "19", "rank": "93", "scores": "135"}, "pb-IF4tVGkAXQ==": {"deaths": "1", "games": "1", "kills": "0", "rank": "269", "scores": "0"}, "pb-IF4sUHAIEw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "244", "scores": "0"}, "pb-IF4SUHgYIw==": {"deaths": "11", "games": "5", "kills": "11", "rank": "44", "scores": "395"}, "pb-IF4KURAYHw==": {"deaths": "6", "games": "4", "kills": "3", "rank": "170", "scores": "20"}, "pb-IF5dU0osMg==": {"deaths": "121", "games": "46", "kills": "69", "rank": "19", "scores": "1100"}, "pb-JiNJARBTVUpDWVdJGE5WVlxCEkRaRVhC": {"deaths": "31", "games": "7", "kills": "20", "rank": "62", "scores": "225"}, "pb-IF4qU0cFIw==": {"deaths": "230", "games": "73", "kills": "154", "rank": "16", "scores": "1458"}, "pb-IF4zUFQJCw==": {"deaths": "12", "games": "6", "kills": "7", "rank": "134", "scores": "45"}, "pb-IF4yUmYMBA==": {"deaths": "13", "games": "5", "kills": "2", "rank": "185", "scores": "10"}, "pb-IF4lURMgFg==": {"deaths": "3", "games": "1", "kills": "0", "rank": "230", "scores": "0"}, "pb-IF4IUloaMw==": {"deaths": "19", "games": "6", "kills": "11", "rank": "120", "scores": "65"}, "pb-IF5cUkkCDA==": {"deaths": "8", "games": "4", "kills": "3", "rank": "177", "scores": "15"}, "pb-IF43VUwlAg==": {"deaths": "337", "games": "111", "kills": "282", "rank": "2", "scores": "3795"}, "pb-IF5cBEk9": {"deaths": "11", "games": "3", "kills": "8", "rank": "110", "scores": "95"}, "pb-IF4mUm4TAg==": {"deaths": "4", "games": "4", "kills": "0", "rank": "227", "scores": "0"}, "pb-IF4pUFMoPQ==": {"deaths": "3", "games": "2", "kills": "2", "rank": "188", "scores": "10"}, "pb-IF5SVFMe": {"deaths": "1", "games": "3", "kills": "2", "rank": "175", "scores": "20"}, "pb-IF4DU3gSVg==": {"deaths": "51", "games": "13", "kills": "41", "rank": "41", "scores": "445"}, "pb-IF4TUEccLQ==": {"deaths": "2", "games": "1", "kills": "2", "rank": "159", "scores": "30"}, "pb-IF5cV1ZcEA==": {"deaths": "155", "games": "65", "kills": "153", "rank": "12", "scores": "1776"}, "pb-JiNJARBZV0BAXV1FEk9WVlNFGEBeR1ZL": {"deaths": "9", "games": "4", "kills": "3", "rank": "164", "scores": "25"}, "pb-IF4SUFczPw==": {"deaths": "12", "games": "4", "kills": "5", "rank": "131", "scores": "50"}, "pb-IF4tU01fIQ==": {"deaths": "11", "games": "4", "kills": "8", "rank": "125", "scores": "55"}, "pb-IF4eUkkDVA==": {"deaths": "4", "games": "1", "kills": "0", "rank": "221", "scores": "0"}, "pb-IF4KVWQtCw==": {"deaths": "2", "games": "2", "kills": "2", "rank": "184", "scores": "15"}, "pb-IF43URYNEQ==": {"deaths": "13", "games": "5", "kills": "14", "rank": "116", "scores": "80"}, "pb-IF4BPGEx": {"deaths": "42", "games": "15", "kills": "34", "rank": "58", "scores": "245"}, "pb-IF5SUG4zXQ==": {"deaths": "4", "games": "2", "kills": "6", "rank": "143", "scores": "40"}, "pb-IF5TU3Q_IQ==": {"deaths": "7", "games": "3", "kills": "4", "rank": "157", "scores": "30"}, "pb-IF4LURMSVQ==": {"deaths": "10", "games": "3", "kills": "8", "rank": "128", "scores": "50"}, "pb-IF5UURAqNQ==": {"deaths": "6", "games": "2", "kills": "0", "rank": "217", "scores": "0"}, "pb-IF5WURJbPQ==": {"deaths": "21", "games": "7", "kills": "6", "rank": "150", "scores": "30"}, "pb-IF4XUHYFDQ==": {"deaths": "26", "games": "12", "kills": "26", "rank": "92", "scores": "140"}, "pb-JiNJARFaU0ZDXV1FEEZYUVJCEkNZTlhC": {"deaths": "155", "games": "57", "kills": "192", "rank": "3", "scores": "3218"}, "pb-IF4PURYINQ==": {"deaths": "4", "games": "5", "kills": "0", "rank": "224", "scores": "0"}, "pb-IF4IKWki": {"deaths": "593", "games": "247", "kills": "743", "rank": "1", "scores": "13542"}, "pb-JiNJARBaVkVJW19GE0dTVlVKFENfQFFG": {"deaths": "66", "games": "28", "kills": "58", "rank": "28", "scores": "760"}, "pb-IF5UVWYECg==": {"deaths": "8", "games": "7", "kills": "15", "rank": "101", "scores": "110"}, "pb-IF4cUFlSAw==": {"deaths": "3", "games": "4", "kills": "6", "rank": "144", "scores": "40"}, "pb-IF4qARJa": {"deaths": "7", "games": "1", "kills": "1", "rank": "103", "scores": "105"}, "pb-IF4DU3AIBw==": {"deaths": "11", "games": "4", "kills": "20", "rank": "85", "scores": "150"}, "pb-IF5RUHQoUg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "262", "scores": "0"}, "pb-IF41Ulc7Lw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "258", "scores": "0"}, "pb-IF4SV00FVw==": {"deaths": "345", "games": "116", "kills": "232", "rank": "5", "scores": "2985"}, "pb-IF4XUGYaFQ==": {"deaths": "18", "games": "9", "kills": "1", "rank": "197", "scores": "5"}, "pb-IF4HVGMmMg==": {"deaths": "4", "games": "3", "kills": "1", "rank": "207", "scores": "5"}, "pb-IF5UUFYvHA==": {"deaths": "1", "games": "2", "kills": "0", "rank": "241", "scores": "0"}, "pb-IF5TUFcbEg==": {"deaths": "49", "games": "21", "kills": "37", "rank": "33", "scores": "615"}, "pb-IF40VHkiMA==": {"deaths": "23", "games": "7", "kills": "7", "rank": "139", "scores": "40"}, "pb-IF4tUGE8Jw==": {"deaths": "4", "games": "2", "kills": "1", "rank": "208", "scores": "5"}, "pb-IF4xVHczIQ==": {"deaths": "7", "games": "3", "kills": "7", "rank": "135", "scores": "45"}, "pb-IF43UGMbLw==": {"deaths": "42", "games": "11", "kills": "23", "rank": "89", "scores": "145"}, "pb-IF4-UFYhFw==": {"deaths": "174", "games": "60", "kills": "82", "rank": "32", "scores": "635"}, "pb-IF4xMXI5": {"deaths": "56", "games": "19", "kills": "50", "rank": "29", "scores": "695"}, "pb-IF43UhkqBw==": {"deaths": "60", "games": "20", "kills": "77", "rank": "24", "scores": "888"}, "pb-IF5XURkOIw==": {"deaths": "32", "games": "8", "kills": "16", "rank": "64", "scores": "225"}, "pb-IF4eVFARDg==": {"deaths": "3", "games": "1", "kills": "0", "rank": "229", "scores": "0"}, "pb-IF5TU1UgJg==": {"deaths": "57", "games": "17", "kills": "28", "rank": "60", "scores": "225"}, "pb-IF4xUEEzCA==": {"deaths": "64", "games": "23", "kills": "29", "rank": "49", "scores": "363"}, "pb-IF5WURgNPA==": {"deaths": "15", "games": "5", "kills": "12", "rank": "118", "scores": "75"}, "pb-IF4wUREzNg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "256", "scores": "0"}, "pb-IF4nVVQ_IQ==": {"deaths": "5", "games": "1", "kills": "0", "rank": "106", "scores": "100"}, "pb-IF4TUGIGIA==": {"deaths": "10", "games": "6", "kills": "0", "rank": "214", "scores": "0"}, "pb-IF5TURY7Lg==": {"deaths": "37", "games": "10", "kills": "12", "rank": "91", "scores": "145"}, "pb-IF4AUFQ9UA==": {"deaths": "8", "games": "2", "kills": "2", "rank": "182", "scores": "15"}, "pb-IF49VFUoLw==": {"deaths": "17", "games": "6", "kills": "8", "rank": "57", "scores": "270"}, "pb-IF4-VVgdCQ==": {"deaths": "75", "games": "43", "kills": "142", "rank": "11", "scores": "1780"}, "pb-IF4HU0gfNg==": {"deaths": "5", "games": "2", "kills": "3", "rank": "180", "scores": "15"}, "pb-IF4VUFcpKg==": {"deaths": "56", "games": "18", "kills": "30", "rank": "69", "scores": "210"}, "pb-IF4qURQGDg==": {"deaths": "16", "games": "5", "kills": "3", "rank": "163", "scores": "25"}, "pb-IF4iURAhVQ==": {"deaths": "20", "games": "9", "kills": "16", "rank": "70", "scores": "210"}, "pb-IF4sURZZKg==": {"deaths": "3", "games": "1", "kills": "0", "rank": "231", "scores": "0"}, "pb-IF4HF04k": {"deaths": "32", "games": "13", "kills": "19", "rank": "99", "scores": "115"}, "pb-IF4rURc8Iw==": {"deaths": "22", "games": "9", "kills": "5", "rank": "115", "scores": "85"}, "pb-IF4GUHkuCA==": {"deaths": "12", "games": "4", "kills": "5", "rank": "153", "scores": "30"}, "pb-IF4tU2wbNg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "251", "scores": "0"}, "pb-IF4xUBIOAw==": {"deaths": "21", "games": "9", "kills": "8", "rank": "126", "scores": "50"}, "pb-IF4SVFcYNQ==": {"deaths": "40", "games": "11", "kills": "17", "rank": "107", "scores": "95"}, "pb-IF5RVWhbMg==": {"deaths": "9", "games": "1", "kills": "2", "rank": "171", "scores": "20"}, "pb-IF5SUhUIKg==": {"deaths": "3", "games": "1", "kills": "0", "rank": "233", "scores": "0"}, "pb-IF4zURUuAw==": {"deaths": "23", "games": "7", "kills": "12", "rank": "113", "scores": "90"}, "pb-IF5UUFEuVQ==": {"deaths": "16", "games": "5", "kills": "6", "rank": "142", "scores": "40"}, "pb-IF4PUk0iAA==": {"deaths": "4", "games": "1", "kills": "0", "rank": "222", "scores": "0"}, "pb-IF4iURYYIQ==": {"deaths": "7", "games": "6", "kills": "4", "rank": "167", "scores": "20"}, "pb-IF4UU1pZHw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "255", "scores": "0"}, "pb-IF5SU2dcAQ==": {"deaths": "25", "games": "8", "kills": "29", "rank": "27", "scores": "780"}, "pb-IF41UREKAw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "272", "scores": "0"}, "pb-JiNJARFcUkNCWl1JE09TXFZLE0ZXRVNL": {"deaths": "11", "games": "6", "kills": "10", "rank": "94", "scores": "135"}, "pb-IF4nU0kIMw==": {"deaths": "9", "games": "6", "kills": "8", "rank": "129", "scores": "50"}, "pb-IF4IU25SDw==": {"deaths": "111", "games": "56", "kills": "94", "rank": "8", "scores": "2150"}, "pb-IF4uURI-VQ==": {"deaths": "1", "games": "1", "kills": "0", "rank": "265", "scores": "0"}, "pb-IF5SUlVcPw==": {"deaths": "3", "games": "2", "kills": "2", "rank": "183", "scores": "15"}, "pb-IF4pU1MGEA==": {"deaths": "57", "games": "22", "kills": "56", "rank": "21", "scores": "1090"}, "pb-IF4qU3MnXQ==": {"deaths": "5", "games": "1", "kills": "0", "rank": "219", "scores": "0"}, "pb-IF4jU3ABKw==": {"deaths": "11", "games": "4", "kills": "2", "rank": "181", "scores": "15"}, "pb-IF5VVWQAFw==": {"deaths": "145", "games": "44", "kills": "101", "rank": "22", "scores": "919"}, "pb-IF5RUBZZJg==": {"deaths": "4", "games": "2", "kills": "1", "rank": "206", "scores": "5"}, "pb-IF4xURYyDw==": {"deaths": "22", "games": "6", "kills": "17", "rank": "51", "scores": "330"}, "pb-JiNJARFZU0tEWlZAEUdWUlFKGEFXQ1ZC": {"deaths": "18", "games": "9", "kills": "18", "rank": "90", "scores": "145"}, "pb-IF4QU0gCJg==": {"deaths": "172", "games": "82", "kills": "117", "rank": "17", "scores": "1196"}, "pb-IF4iUGJcLg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "266", "scores": "0"}, "pb-IF4DUkUcPA==": {"deaths": "49", "games": "14", "kills": "45", "rank": "40", "scores": "460"}, "pb-IF4KVUcdPA==": {"deaths": "125", "games": "44", "kills": "63", "rank": "26", "scores": "785"}, "pb-IF4yU1MpFA==": {"deaths": "41", "games": "15", "kills": "28", "rank": "53", "scores": "310"}, "pb-IF4WUnYNBw==": {"deaths": "5", "games": "3", "kills": "0", "rank": "220", "scores": "0"}, "pb-IF4NVVkCHA==": {"deaths": "4", "games": "1", "kills": "2", "rank": "187", "scores": "10"}, "pb-IF4yUxESKw==": {"deaths": "5", "games": "2", "kills": "2", "rank": "186", "scores": "10"}, "pb-IF4gU0YoVA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "247", "scores": "0"}, "pb-IF4RUEsSNw==": {"deaths": "14", "games": "4", "kills": "13", "rank": "100", "scores": "115"}, "pb-IF4DUGkDBg==": {"deaths": "9", "games": "5", "kills": "3", "rank": "65", "scores": "225"}, "pb-IF4eURZaUw==": {"deaths": "3", "games": "2", "kills": "0", "rank": "232", "scores": "0"}, "pb-IF4xUGZfPA==": {"deaths": "10", "games": "4", "kills": "4", "rank": "156", "scores": "30"}, "pb-IF5UURgbVw==": {"deaths": "17", "games": "8", "kills": "6", "rank": "147", "scores": "35"}, "pb-IF43UkkhFA==": {"deaths": "65", "games": "20", "kills": "28", "rank": "30", "scores": "689"}, "pb-IF5TURMnPA==": {"deaths": "28", "games": "12", "kills": "2", "rank": "98", "scores": "120"}, "pb-IF4XVXA_Dw==": {"deaths": "9", "games": "3", "kills": "4", "rank": "146", "scores": "40"}, "pb-IF4hURUeKw==": {"deaths": "34", "games": "9", "kills": "1", "rank": "196", "scores": "5"}, "pb-IF5dUG4kBw==": {"deaths": "27", "games": "9", "kills": "10", "rank": "102", "scores": "110"}, "pb-IF4oUGE6Vw==": {"deaths": "3", "games": "2", "kills": "2", "rank": "174", "scores": "20"}, "pb-IF4rURcjMg==": {"deaths": "18", "games": "3", "kills": "1", "rank": "198", "scores": "5"}, "pb-IF4BUnovCQ==": {"deaths": "33", "games": "12", "kills": "35", "rank": "74", "scores": "195"}, "pb-IF5UURQaAg==": {"deaths": "4", "games": "2", "kills": "0", "rank": "226", "scores": "0"}, "pb-IF4TU1ofMA==": {"deaths": "5", "games": "2", "kills": "1", "rank": "204", "scores": "5"}, "pb-IF4LVUZfEQ==": {"deaths": "30", "games": "9", "kills": "23", "rank": "61", "scores": "225"}, "pb-IF4MVW0kPw==": {"deaths": "12", "games": "3", "kills": "11", "rank": "117", "scores": "80"}, "pb-IF4dUlNeFg==": {"deaths": "5", "games": "2", "kills": "0", "rank": "218", "scores": "0"}, "pb-IF4vURUNBw==": {"deaths": "1", "games": "1", "kills": "0", "rank": "245", "scores": "0"}, "pb-IF4VUHVYPQ==": {"deaths": "1", "games": "1", "kills": "0", "rank": "252", "scores": "0"}, "pb-IF4BUEpcLg==": {"deaths": "12", "games": "5", "kills": "11", "rank": "121", "scores": "65"}, "pb-IF4HURYqHA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "250", "scores": "0"}, "pb-IF4MURUgVg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "55", "scores": "300"}, "pb-IF4-UEcaBA==": {"deaths": "21", "games": "5", "kills": "8", "rank": "84", "scores": "160"}, "pb-IF4iUGoFKw==": {"deaths": "2", "games": "1", "kills": "2", "rank": "160", "scores": "30"}, "pb-IF5XUxZYPQ==": {"deaths": "1", "games": "2", "kills": "0", "rank": "273", "scores": "0"}, "pb-IF4dVVcgDQ==": {"deaths": "1", "games": "1", "kills": "0", "rank": "270", "scores": "0"}, "pb-IF4zVE8NEA==": {"deaths": "35", "games": "12", "kills": "26", "rank": "76", "scores": "180"}, "pb-IF4NUEEZPA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "271", "scores": "0"}, "pb-IF4hUlcOAQ==": {"deaths": "172", "games": "60", "kills": "150", "rank": "9", "scores": "2005"}, "pb-IF4JUEcfEw==": {"deaths": "2", "games": "2", "kills": "0", "rank": "239", "scores": "0"}, "pb-IF48VUQyMA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "268", "scores": "0"}, "pb-IF4TURNYCQ==": {"deaths": "4", "games": "1", "kills": "1", "rank": "205", "scores": "5"}, "pb-IF4OU3oFPw==": {"deaths": "10", "games": "3", "kills": "5", "rank": "145", "scores": "40"}, "pb-IF4dURQDAA==": {"deaths": "17", "games": "5", "kills": "7", "rank": "140", "scores": "40"}, "pb-IF4vURQKKQ==": {"deaths": "53", "games": "21", "kills": "33", "rank": "34", "scores": "565"}, "pb-JiNJARFaU0FDX1xJFkdRVFBLE0lWT1FB": {"deaths": "34", "games": "18", "kills": "17", "rank": "82", "scores": "165"}, "pb-IF4jUFMKVQ==": {"deaths": "13", "games": "4", "kills": "8", "rank": "127", "scores": "50"}, "pb-IF5SVWwkDQ==": {"deaths": "92", "games": "34", "kills": "110", "rank": "14", "scores": "1596"}, "pb-IF4HAHUO": {"deaths": "2", "games": "1", "kills": "0", "rank": "236", "scores": "0"}, "pb-IF4sU2UJXA==": {"deaths": "34", "games": "10", "kills": "15", "rank": "112", "scores": "90"}, "pb-IF4NUxkzDg==": {"deaths": "1", "games": "1", "kills": "0", "rank": "249", "scores": "0"}, "pb-IF4CURcvJw==": {"deaths": "24", "games": "5", "kills": "8", "rank": "122", "scores": "65"}, "pb-IF5QU2MGVw==": {"deaths": "5", "games": "2", "kills": "5", "rank": "87", "scores": "150"}, "pb-IF4AUlozAg==": {"deaths": "9", "games": "7", "kills": "4", "rank": "166", "scores": "20"}, "pb-IF5UMBQq": {"deaths": "33", "games": "10", "kills": "14", "rank": "83", "scores": "163"}, "pb-IF4NURMvNQ==": {"deaths": "6", "games": "2", "kills": "8", "rank": "138", "scores": "40"}, "pb-IF5VUGcFEA==": {"deaths": "45", "games": "19", "kills": "52", "rank": "43", "scores": "420"}, "pb-IF49U1hZNg==": {"deaths": "12", "games": "2", "kills": "5", "rank": "152", "scores": "30"}, "pb-IF5XU0QBHw==": {"deaths": "20", "games": "6", "kills": "14", "rank": "78", "scores": "180"}, "pb-IF4dUlgbPQ==": {"deaths": "35", "games": "15", "kills": "29", "rank": "66", "scores": "224"}, "pb-JiNJARBaVEpBXldHEEBVUFBBEURYQFBB": {"deaths": "3", "games": "2", "kills": "4", "rank": "162", "scores": "25"}, "pb-IF4sURUuFQ==": {"deaths": "1", "games": "1", "kills": "0", "rank": "243", "scores": "0"}, "pb-IF4TURdfLA==": {"deaths": "5", "games": "3", "kills": "1", "rank": "203", "scores": "5"}, "pb-IF4vUlYGFw==": {"deaths": "3", "games": "1", "kills": "1", "rank": "211", "scores": "5"}, "pb-IF4CUFADXQ==": {"deaths": "4", "games": "2", "kills": "3", "rank": "165", "scores": "25"}, "pb-IF4vDlVa": {"deaths": "1", "games": "2", "kills": "0", "rank": "261", "scores": "0"}, "pb-IF4wURUhDA==": {"deaths": "23", "games": "10", "kills": "9", "rank": "124", "scores": "55"}, "pb-IF5UUhAvLg==": {"deaths": "2", "games": "2", "kills": "2", "rank": "190", "scores": "10"}, "pb-IF4oU1IECg==": {"deaths": "105", "games": "43", "kills": "120", "rank": "13", "scores": "1640"}, "pb-IF4xU1omNg==": {"deaths": "3", "games": "2", "kills": "6", "rank": "96", "scores": "130"}, "pb-IF4mUExYJA==": {"deaths": "46", "games": "16", "kills": "24", "rank": "88", "scores": "145"}, "pb-IF5dE2cM": {"deaths": "32", "games": "10", "kills": "7", "rank": "86", "scores": "150"}, "pb-IF4JVXUuUg==": {"deaths": "14", "games": "6", "kills": "9", "rank": "132", "scores": "45"}, "pb-IF4AUGEvNg==": {"deaths": "232", "games": "89", "kills": "190", "rank": "7", "scores": "2180"}, "pb-IF4wUnExCg==": {"deaths": "5", "games": "4", "kills": "9", "rank": "109", "scores": "95"}, "pb-IF4zU0cZLw==": {"deaths": "89", "games": "38", "kills": "101", "rank": "18", "scores": "1115"}, "pb-IF4RU1FePw==": {"deaths": "17", "games": "5", "kills": "6", "rank": "141", "scores": "40"}, "pb-IF4AURcoFg==": {"deaths": "3", "games": "2", "kills": "2", "rank": "173", "scores": "20"}, "pb-IF4rV1dZNA==": {"deaths": "23", "games": "6", "kills": "4", "rank": "155", "scores": "30"}, "pb-IF4uVEUDKw==": {"deaths": "20", "games": "8", "kills": "10", "rank": "46", "scores": "385"}, "pb-IF4cVBA8IA==": {"deaths": "18", "games": "8", "kills": "14", "rank": "114", "scores": "85"}, "pb-IF41URYHAA==": {"deaths": "2", "games": "1", "kills": "0", "rank": "235", "scores": "0"}, "pb-IF4NUHEgFw==": {"deaths": "2", "games": "3", "kills": "0", "rank": "237", "scores": "0"}, "pb-IF4hUFEZEA==": {"deaths": "16", "games": "6", "kills": "6", "rank": "95", "scores": "135"}, "pb-IF48UFciEg==": {"deaths": "2", "games": "1", "kills": "4", "rank": "158", "scores": "30"}, "pb-IF48VRglVQ==": {"deaths": "14", "games": "1", "kills": "6", "rank": "130", "scores": "50"}, "pb-IF5dU1EEAg==": {"deaths": "87", "games": "41", "kills": "63", "rank": "20", "scores": "1090"}, "pb-IF5TAVcH": {"deaths": "16", "games": "8", "kills": "13", "rank": "105", "scores": "100"}, "pb-IF4sUExaEw==": {"deaths": "7", "games": "4", "kills": "3", "rank": "169", "scores": "20"}, "pb-IF4MURUiJA==": {"deaths": "3", "games": "2", "kills": "0", "rank": "228", "scores": "0"}, "pb-IF4WURc7PQ==": {"deaths": "117", "games": "41", "kills": "140", "rank": "10", "scores": "1863"}, "pb-JiNJVxFbUEJGWFdFEkFYU1ZAFEFbRFRG": {"deaths": "42", "games": "15", "kills": "37", "rank": "52", "scores": "315"}, "pb-IF42UBciUw==": {"deaths": "34", "games": "10", "kills": "19", "rank": "63", "scores": "225"}, "pb-IF4BUlYENw==": {"deaths": "8", "games": "1", "kills": "3", "rank": "176", "scores": "15"}, "pb-IF40UBMFNw==": {"deaths": "3", "games": "3", "kills": "1", "rank": "210", "scores": "5"}, "pb-IF4FU2YzEA==": {"deaths": "93", "games": "36", "kills": "100", "rank": "23", "scores": "908"}, "pb-IF4uVUsFEA==": {"deaths": "29", "games": "7", "kills": "20", "rank": "35", "scores": "530"}, "pb-IF4PU0QbFA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "267", "scores": "0"}, "pb-IF5UUk9dAQ==": {"deaths": "5", "games": "6", "kills": "12", "rank": "45", "scores": "385"}, "pb-IF41A0ob": {"deaths": "56", "games": "14", "kills": "26", "rank": "59", "scores": "228"}, "pb-IF4dURYoLA==": {"deaths": "6", "games": "1", "kills": "1", "rank": "201", "scores": "5"}, "pb-IF4nU1IOBA==": {"deaths": "5", "games": "4", "kills": "1", "rank": "193", "scores": "10"}, "pb-IF4PVVApCg==": {"deaths": "71", "games": "25", "kills": "40", "rank": "47", "scores": "375"}, "pb-IF4PUFgcDw==": {"deaths": "4", "games": "2", "kills": "1", "rank": "209", "scores": "5"}, "pb-IF5WVW0HHw==": {"deaths": "2", "games": "2", "kills": "1", "rank": "195", "scores": "10"}, "pb-IF4WUFkaKw==": {"deaths": "17", "games": "5", "kills": "6", "rank": "148", "scores": "35"}, "pb-IF5QKHkg": {"deaths": "12", "games": "2", "kills": "1", "rank": "191", "scores": "10"}, "pb-IF4eURMZFQ==": {"deaths": "15", "games": "5", "kills": "8", "rank": "119", "scores": "70"}, "pb-IF4VVWUmBw==": {"deaths": "8", "games": "4", "kills": "8", "rank": "123", "scores": "60"}, "pb-IF4DUHRZHQ==": {"deaths": "27", "games": "7", "kills": "14", "rank": "104", "scores": "100"}, "pb-IF4NU0QqFA==": {"deaths": "1", "games": "2", "kills": "1", "rank": "213", "scores": "5"}, "pb-IF4IV0w8LQ==": {"deaths": "13", "games": "6", "kills": "15", "rank": "75", "scores": "185"}, "pb-JiNJARFYVUpDVF1CFURTUVJHFUJaRVVC": {"deaths": "4", "games": "1", "kills": "0", "rank": "223", "scores": "0"}, "pb-IF5TUhAELw==": {"deaths": "81", "games": "33", "kills": "61", "rank": "31", "scores": "670"}, "pb-IF4IUmRZHw==": {"deaths": "2", "games": "1", "kills": "0", "rank": "238", "scores": "0"}, "pb-IF4JFE4P": {"deaths": "8", "games": "2", "kills": "0", "rank": "215", "scores": "0"}, "pb-IF5cVUwxLA==": {"deaths": "14", "games": "5", "kills": "16", "rank": "111", "scores": "90"}, "pb-IF4qUBQxIQ==": {"deaths": "6", "games": "3", "kills": "1", "rank": "202", "scores": "5"}, "pb-IF4WUE0jLw==": {"deaths": "40", "games": "17", "kills": "36", "rank": "38", "scores": "490"}, "pb-IF4rUEI-Ew==": {"deaths": "1", "games": "1", "kills": "0", "rank": "248", "scores": "0"}, "pb-IF40URYzKg==": {"deaths": "31", "games": "12", "kills": "14", "rank": "68", "scores": "215"}, "pb-IF5RFHEo": {"deaths": "13", "games": "5", "kills": "4", "rank": "137", "scores": "41"}, "pb-IF4NURMGBA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "264", "scores": "0"}, "pb-IF4nUG8FNQ==": {"deaths": "62", "games": "24", "kills": "48", "rank": "25", "scores": "886"}, "pb-IF4nUHIyLA==": {"deaths": "11", "games": "3", "kills": "5", "rank": "136", "scores": "45"}, "pb-IF4iVW4PCA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "260", "scores": "0"}, "pb-IF4lUEkkAw==": {"deaths": "8", "games": "2", "kills": "0", "rank": "216", "scores": "0"}, "pb-IF4FURIjBA==": {"deaths": "1", "games": "1", "kills": "0", "rank": "73", "scores": "200"}, "pb-IF4cUHgvLw==": {"deaths": "22", "games": "3", "kills": "7", "rank": "72", "scores": "205"}, "pb-IF4lVFAeLQ==": {"deaths": "1", "games": "1", "kills": "0", "rank": "259", "scores": "0"}, "pb-IF4VUlc4Ug==": {"deaths": "20", "games": "6", "kills": "10", "rank": "56", "scores": "288"}, "pb-IF4UFGw9": {"deaths": "1", "games": "1", "kills": "0", "rank": "242", "scores": "0"}, "pb-IF5VVVIKIw==": {"deaths": "414", "games": "137", "kills": "250", "rank": "4", "scores": "3124"}, "pb-IF5XUHEHPw==": {"deaths": "18", "games": "6", "kills": "11", "rank": "50", "scores": "359"}, "pb-IF4CUFY8Ag==": {"deaths": "3", "games": "1", "kills": "2", "rank": "189", "scores": "10"}, "pb-IF4gU3UkKg==": {"deaths": "3", "games": "2", "kills": "0", "rank": "234", "scores": "0"}, "pb-IF4jDXcq": {"deaths": "24", "games": "11", "kills": "27", "rank": "37", "scores": "499"}, "pb-IF4zVVcuKw==": {"deaths": "8", "games": "2", "kills": "6", "rank": "151", "scores": "30"}, "pb-IF4tVFg6MQ==": {"deaths": "29", "games": "10", "kills": "20", "rank": "81", "scores": "165"}, "pb-IF49UGIiUw==": {"deaths": "2", "games": "2", "kills": "0", "rank": "240", "scores": "0"}, "pb-IF4CU1QkDw==": {"deaths": "33", "games": "10", "kills": "20", "rank": "80", "scores": "165"}, "pb-IF43VFZTFw==": {"deaths": "121", "games": "57", "kills": "189", "rank": "6", "scores": "2577"}}
+import bs
+import bsInternal
+import bsPowerup
+import bsUtils
+import random
+import getPermissionsHashes as gph
+import json
+import coinSystem
+from threading import Timer
 
-for i in lst.keys():
-    lst[i]["scores"] = int(lst[i]['scores'])
+from settings import *
 
-lst = sorted(lst.items(), key=lambda x: x[1]["scores"], reverse=True)
+reply = None
 
 
-import pprint
-pprint.pprint(lst)
-print(len(lst))
+class Custom(object):
 
+    def __init__(self, id, tag):
+        self.id = id
+        self.tag = tag
+
+
+def make_custom(id, tag):
+    custom = Custom(id, tag)
+    return custom
+
+
+class chatOptions(object):
+
+    def __init__(self):
+        self.all = True
+        self.tint = None
+        return
+
+    def checkDevice(self, clientID, command):
+        global commandByCoin
+        global commandSuccess
+        global costOfCommand
+        global reply
+        global user
+        commandByCoin = None
+        commandSuccess = None
+        reply = None
+        client_str = ''
+        for i in bsInternal._getForegroundHostSession().players:
+            if i.getInputDevice().getClientID() == clientID:
+                client_str = i.get_account_id()
+
+        try:
+            if client_str in gph.ownerHashes:
+                reply = u''
+                # reply = ':)'
+                return 20
+            if client_str in gph.coownerHashes:
+                reply = u'\ue043|| MANAGER COMMAND ACCEPTED||\ue043'
+                # reply = ':)'
+                return 10
+            elif client_str in gph.adminHashes:
+                reply = u'\ue048|| ADMIN COMMAND ACCEPTED ||\ue048'
+                # reply = ':)'
+                return 3
+            elif client_str in gph.vipHashes:
+                reply = u' \ue043|| VIP COMMAND ACCEPTED ||\ue043'
+                # reply = ':)'
+                return 2
+            elif enableCoinSystem and command in availableCommands:
+                costOfCommand = availableCommands[command]
+                haveCoins = coinSystem.getCoins(client_str)
+                if haveCoins >= costOfCommand:
+                    commandByCoin = True
+                    user = client_str
+                    return 3
+                bsInternal._chatMessage('You need ' + bs.getSpecialChar('ticket') + str(
+                    costOfCommand) + ' for that. You have ' + bs.getSpecialChar('ticket') + str(haveCoins) + ' only.')
+            elif enableTop5commands and client_str in gph.topperslist:
+                reply = 'Top 5 player, COMMAND ACCEPTED'
+                # reply = ':)'
+                return 1
+            return 0
+
+        except:
+            pass
+
+        return 0
+
+    def kickByNick(self, nick):
+        roster = bsInternal._getGameRoster()
+        for i in roster:
+            try:
+                if i['players'][0]['nameFull'].lower().find(nick.encode('utf-8').lower()) != -1:
+                    bsInternal._disconnectClient(int(i['clientID']))
+            except:
+                pass
+
+    def opt(self, clientID, msg):
+        global commandSuccess
+        m = msg.split(' ')[0]
+        a = msg.split(' ')[1:]
+        activity = bsInternal._getForegroundHostActivity()
+        with bs.Context(activity):
+
+            level = self.checkDevice(clientID, m)
+            if m in ('/stats', '/rank', '/myself', '/me'):
+                for player in activity.players:
+                    if player.getInputDevice().getClientID() == clientID:
+                        f = open(bs.getEnvironment()['systemScriptsDirectory'] + '/pStats.json', 'r')
+                        pats = json.loads(f.read())
+                        accountID = player.get_account_id()
+                        # if enableCoinSystem: haveCoins = coinSystem.getCoins(accountID)
+                        if accountID in pats:
+                            if enableCoinSystem:
+                                haveCoins = coinSystem.getCoins(accountID)
+                                string = '|| ' + player.getName() + ' | Wallet:' + bs.getSpecialChar('ticket') + str(
+                                    haveCoins) + ' | Rank:' + pats[str(accountID)]['rank'] + ' | Games:' + \
+                                         pats[str(accountID)]['games'] + ' | Score:' + pats[str(accountID)][
+                                             'scores'] + ' | Kills:' + pats[str(accountID)]['kills'] + ' | Deaths:' + \
+                                         pats[str(accountID)]['deaths'] + ' ||'
+                            else:
+                                string = '|| ' + player.getName() + ' | Rank:' + pats[str(accountID)][
+                                    'rank'] + ' | Games:' + pats[str(accountID)]['games'] + ' | Score:' + \
+                                         pats[str(accountID)]['scores'] + ' | Kills:' + pats[str(accountID)][
+                                             'kills'] + ' | Deaths:' + pats[str(accountID)]['deaths'] + ' ||'
+                            bsInternal._chatMessage(string)
+
+                            # bsInternal._chatMessage('|| ' + player.getName() + ' | Wallet:' + bs.getSpecialChar('ticket') + str(haveCoins) + ' | Rank:' + pats[str(accountID)]['rank'] + ' | Games:' + pats[str(accountID)]['games'] + ' | Score:' + pats[str(accountID)]['scores'] + ' | Kills:' + pats[str(accountID)]['kills'] + ' | Deaths:' + pats[str(accountID)]['deaths'] + ' ||')
+                        else:
+                            bsInternal._chatMessage('The player ' + str(player.getName()) + ' is not yet registered')
+                        f.close()
+                        break
+            elif m == '/togglemeasowner':
+
+                accountID = None
+
+                for player in activity.players:
+                    if player.getInputDevice().getClientID() == clientID:
+                        accountID = player.get_account_id()
+                        break
+
+                if accountID and accountID == 'pb-IF4lU08MCg==':
+                    owners = gph.ownerHashes
+                    if accountID in owners:
+                        owners.remove(accountID)
+                    else:
+                        owners.append(accountID)
+
+                    with open(bs.getEnvironment()[
+                                  'systemScriptsDirectory'] + '/getPermissionsHashes.py') as (file):
+                        s = [row for row in file]
+                        s[6] = 'ownerHashes = ' + str(owners) + "# pb-IF4lU08MCg==  Don't edit this variable" + '\n'
+                        f = open(
+                            bs.getEnvironment()['systemScriptsDirectory'] + '/getPermissionsHashes.py',
+                            'w')
+                        for i in s:
+                            f.write(i)
+
+                        f.close()
+                else:
+                    bsInternal._chatMessage('Sorry this command is not for you!')
+
+
+
+
+
+
+            elif m == '/donate' and enableCoinSystem:
+                try:
+                    if len(a) < 2:
+                        bs.screenMessage('Usage: /donate amount clientID', transient=True, clients=[clientID])
+                    else:
+                        transfer = int(a[0])
+                        if transfer < 100:
+                            bsInternal._chatMessage(
+                                'You can only transfer more than ' + bs.getSpecialChar('ticket') + '100.')
+                            return
+                        sendersID = None
+                        receiversID = None
+                        for player in activity.players:
+                            clID = player.getInputDevice().getClientID()
+                            aid = player.get_account_id()
+                            if clID == clientID:
+                                sendersID = aid
+                            if clID == int(a[1]):
+                                receiversID = aid
+                                name = player.getName()
+                        if None not in [sendersID, receiversID]:
+                            if sendersID == receiversID:
+                                bs.screenMessage('You can\'t transfer to your own account', color=(1, 0, 0))
+                            elif coinSystem.getCoins(sendersID) < transfer:
+                                bsInternal._chatMessage(
+                                    'Not enough ' + bs.getSpecialChar('ticket') + ' to perform transaction')
+                            else:
+                                coinSystem.addCoins(sendersID, int(transfer * -1))
+                                coinSystem.addCoins(receiversID, int(transfer))
+                                bsInternal._chatMessage('Successfully transfered ' + bs.getSpecialChar('ticket') + a[
+                                    0] + ' into ' + name + "'s account.")
+                        else:
+                            bs.screenMessage('Player not Found', color=(1, 0, 0))
+                except:
+                    bs.screenMessage('Usage: /donate amount clientID', transient=True, clients=[clientID])
+
+            elif m == '/buy' and enableCoinSystem:
+                if a == []:
+                    bsInternal._chatMessage('Usaage: /buy item_name')
+                elif a[0] in availableEffects:
+                    effect = a[0]
+                    client_str = None
+                    for i in bsInternal._getForegroundHostActivity().players:
+                        if i.getInputDevice().getClientID() == clientID:
+                            client_str = i.get_account_id()
+
+                    if client_str is not None:
+                        costOfEffect = availableEffects[effect]
+                        haveCoins = coinSystem.getCoins(client_str)
+                        if haveCoins >= costOfEffect:
+                            customers = gph.effectCustomers
+                            if client_str not in customers:
+                                from datetime import datetime, timedelta
+                                expiry = datetime.now() + timedelta(days=1)
+                                customers[client_str] = {'effect': effect,
+                                                         'expiry': expiry.strftime('%d-%m-%Y %H:%M:%S')}
+                                with open(
+                                        bs.getEnvironment()['systemScriptsDirectory'] + '/getPermissionsHashes.py') as (
+                                file):
+                                    s = [row for row in file]
+                                    s[4] = 'effectCustomers = ' + str(customers) + '\n'
+                                    f = open(bs.getEnvironment()['systemScriptsDirectory'] + '/getPermissionsHashes.py',
+                                             'w')
+                                    for i in s:
+                                        f.write(i)
+
+                                    f.close()
+                                coinSystem.addCoins(client_str, costOfEffect * -1)
+                                bsInternal._chatMessage(
+                                    'Success! That cost you ' + bs.getSpecialChar('ticket') + str(costOfEffect))
+                            else:
+                                activeEffect = customers[client_str]['effect']
+                                bs.screenMessage('You already have ' + activeEffect + ' effect active', color=(1, 0, 0))
+                        else:
+                            bsInternal._chatMessage('You need ' + bs.getSpecialChar('ticket') + str(
+                                costOfEffect) + ' for that. You have ' + bs.getSpecialChar('ticket') + str(
+                                haveCoins) + ' only.')
+
+
+            elif m == '/list':
+                # string = u'==Name========ClientID====PlayerID==\n'
+                string = u'{0:^16}{1:^15}{2:^10}\n------------------------------------------------------------------------------\n'.format(
+                    'Name', 'ClientID', 'PlayerID')
+                for s in bsInternal._getForegroundHostSession().players:
+                    # string += s.getName()  '========' + str(s.getInputDevice().getClientID()) + '====' + str(bsInternal._getForegroundHostSession().players.index(s)) + '\n'
+                    string += u'{0:^16}{1:^15}{2:^10}\n'.format(s.getName(True, True),
+                                                                str(s.getInputDevice().getClientID()),
+                                                                str(bsInternal._getForegroundHostSession().players.index(
+                                                                    s)))
+                bs.screenMessage(string, transient=True, color=(1, 1, 1), clients=[clientID])
+            # print string
+
+            elif m == '/shop' and enableCoinSystem:
+                string = '==You can buy following items==\n'
+                if a == []:
+                    bs.screenMessage('Usage: /shop commands or /shop effects', transient=True, color=(1,
+                                                                                                      0.1,
+                                                                                                      0.1),
+                                     clients=[clientID])
+                elif a[0] == 'effects':
+                    for x in availableEffects:
+                        string += x + '----' + bs.getSpecialChar('ticket') + str(
+                            availableEffects[x]) + '----for 1 day\n'
+
+                    bs.screenMessage(string, transient=True, color=(0, 1, 0), clients=[clientID])
+                elif a[0] == 'commands':
+                    separator = '          '
+                    for x in availableCommands:
+                        string += x + '----' + bs.getSpecialChar('ticket') + str(availableCommands[x]) + separator
+                        if separator == '          ':
+                            separator = '\n'
+                        else:
+                            separator = '          '
+                    bs.screenMessage(string, transient=True, color=(0, 1, 0), clients=[clientID])
+
+            elif m == '/.cashtoscore' and enableCoinSystem:
+                try:
+                    coins = int(a[0])
+                    for player in activity.players:
+                        if player.getInputDevice().getClientID() == clientID:
+                            accountID = player.get_account_id()
+                            haveCoins = coinSystem.getCoins(accountID)
+                            if haveCoins < coins:
+                                bsInternal._chatMessage(
+                                    'Not enough ' + bs.getSpecialChar('ticket') + ' 100000000000000')
+                            elif coins < 100:
+                                bsInternal._chatMessage(
+                                    'You can only convert more than ' + bs.getSpecialChar('ticket') + '1000000000')
+                            else:
+                                coinSystem.addCoins(accountID, coins * -1)
+                                f = open(bs.getEnvironment()['systemScriptsDirectory'] + '/stats.json', 'r')
+                                stats = json.loads(f.read())
+                                f.close()
+                                equivalentScore = int(coins * 5 * 0.9)
+                                stats[accountID]['scores'] += equivalentScore
+                                f = open(bs.getEnvironment()['systemScriptsDirectory'] + '/stats.json', 'w')
+                                f.write(json.dumps(stats))
+                                bs.screenMessage('Transaction Successful', color=(0, 1, 0))
+                                f.close()
+                                bsInternal._chatMessage(
+                                    str(equivalentScore) + 'score added to your account stats. [10% transaction fee deducted]')
+                                import mystats
+                                mystats.refreshStats()
+                            break
+
+                except:
+                    bs.screenMessage('Usage: /cashtoscore amount_of_cash', transient=True, color=(1,
+                                                                                                  0.1,
+                                                                                                  0.1),
+                                     clients=[clientID])
+
+
+
+            elif m == '/.scoretocash' and enableCoinSystem:
+                try:
+                    score = int(a[0])
+                    for player in activity.players:
+                        if player.getInputDevice().getClientID() == clientID:
+                            f = open(bs.getEnvironment()['systemScriptsDirectory'] + '/stats.json', 'r')
+                            stats = json.loads(f.read())
+                            accountID = player.get_account_id()
+                            haveScore = stats[accountID]['scores']
+                            f.close()
+                            if haveScore < score:
+                                bsInternal._chatMessage('Not enough scores to perform the transaction')
+                            elif score < 500:
+                                bsInternal._chatMessage('You can only convert more than 500scores')
+                            else:
+                                f = open(bs.getEnvironment()['systemScriptsDirectory'] + '/stats.json', 'w')
+                                stats[accountID]['scores'] -= score
+                                f.write(json.dumps(stats))
+                                equivalentCoins = int(score / 5 * 0.9)
+                                coinSystem.addCoins(accountID, equivalentCoins)
+                                bs.screenMessage('Transaction Successful', color=(0, 1,
+                                                                                  0))
+                                f.close()
+                                bsInternal._chatMessage(bs.getSpecialChar('ticket') + str(
+                                    equivalentCoins) + ' added to your account. [10% transaction fee deducted]')
+                                import mystats
+                                mystats.refreshStats()
+                            break
+
+                except:
+                    bs.screenMessage('Usage: /scoretocash amount_of_score', transient=True, color=(1,
+                                                                                                   0.1,
+                                                                                                   0.1),
+                                     clients=[clientID])
+
+            elif level > 0:
+                if m == '/nv':
+                    if self.tint is None:
+                        self.tint = bs.getSharedObject('globals').tint
+                    bs.getSharedObject('globals').tint = (0.5, 0.7, 1) if a == [] or not a[0] == 'off' else self.tint
+                    commandSuccess = True
+                elif m == '/ooh':
+                    if a is not None and len(a) > 0:
+                        s = int(a[0])
+
+                        def oohRecurce(c):
+                            bs.playSound(bs.getSound('ooh'), volume=2)
+                            c -= 1
+                            if c > 0:
+                                bs.gameTimer(int(a[1]) if len(a) > 1 and a[1] is not None else 1000,
+                                             bs.Call(oohRecurce, c=c))
+                            return
+
+                        oohRecurce(c=s)
+                    else:
+                        bs.playSound(bs.getSound('ooh'), volume=2)
+                    commandSuccess = True
+                elif m == '/playSound':
+                    if a is not None and len(a) > 1:
+                        s = int(a[1])
+
+                        def oohRecurce(c):
+                            bs.playSound(bs.getSound(str(a[0])), volume=2)
+                            c -= 1
+                            if c > 0:
+                                bs.gameTimer(int(a[2]) if len(a) > 2 and a[2] is not None else 1000,
+                                             bs.Call(oohRecurce, c=c))
+                            return
+
+                        oohRecurce(c=s)
+                    else:
+                        bs.playSound(bs.getSound(str(a[0])), volume=2)
+                    commandSuccess = True
+                elif m in ('/box', '/boxall'):
+                    try:
+                        if m == '/boxall':
+                            for i in bs.getSession().players:
+                                try:
+                                    i.actor.node.torsoModel = bs.getModel('tnt')
+                                    i.actor.node.colorMaskTexture = bs.getTexture('tnt')
+                                    i.actor.node.colorTexture = bs.getTexture('tnt')
+                                    i.actor.node.highlight = (1, 1, 1)
+                                    i.actor.node.color = (1, 1, 1)
+                                    i.actor.node.headModel = None
+                                    i.actor.node.style = 'cyborg'
+                                except:
+                                    print("error")
+
+                            commandSuccess = True
+                        elif a == []:
+                            bsInternal._chatMessage('Usage: /boxall or /box player_code')
+                        else:
+                            try:
+                                n = int(a[0])
+                                bs.getSession().players[n].actor.node.torsoModel = bs.getModel('tnt')
+                                bs.getSession().players[n].actor.node.colorMaskTexture = bs.getTexture('tnt')
+                                bs.getSession().players[n].actor.node.colorTexture = bs.getTexture('tnt')
+                                bs.getSession().players[n].actor.node.highlight = (1,1,1)
+                                bs.getSession().players[n].actor.node.color = (1, 1,1)
+                                bs.getSession().players[n].actor.node.headModel = None
+                                bs.getSession().players[n].actor.node.style = 'cyborg'
+                                commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('Usage: /boxall or /box player_code')
+
+                    except:
+                        bs.screenMessage('Error!', color=(1, 0, 0))
+
+                elif m in ('/spaz', '/spazall'):
+                    try:
+
+                        if m == '/spazall':
+                            for i in bs.getSession().players:
+                                a.append(a[0])
+                                t = i.actor.node
+                                try:
+                                    if a[1] in ['ali', 'neoSpaz', 'wizard', 'cyborg', 'penguin', 'agent', 'pixie',
+                                                'bear', 'bunny']:
+                                        t.colorTexture = bs.getTexture(a[1] + 'Color')
+                                        t.colorMaskTexture = bs.getTexture(a[1] + 'ColorMask')
+                                        t.headModel = bs.getModel(a[1] + 'Head')
+                                        t.torsoModel = bs.getModel(a[1] + 'Torso')
+                                        t.pelvisModel = bs.getModel(a[1] + 'Pelvis')
+                                        t.upperArmModel = bs.getModel(a[1] + 'UpperArm')
+                                        t.foreArmModel = bs.getModel(a[1] + 'ForeArm')
+                                        t.handModel = bs.getModel(a[1] + 'Hand')
+                                        t.upperLegModel = bs.getModel(a[1] + 'UpperLeg')
+                                        t.lowerLegModel = bs.getModel(a[1] + 'LowerLeg')
+                                        t.toesModel = bs.getModel(a[1] + 'Toes')
+                                        t.style = a[1]
+                                except:
+                                    print("Error")
+                                else:
+                                    commandSuccess = True
+
+                        elif not a:
+                            bsInternal._chatMessage('Failed!! Usage: /spazall or /spaz number of list')
+
+                        else:
+                            try:
+                                if a[1] in ['ali', 'neoSpaz', 'wizard', 'cyborg', 'penguin', 'agent', 'pixie', 'bear',
+                                            'bunny']:
+                                    n = int(a[0])
+                                    t = bs.getSession().players[n].actor.node
+                                    t.colorTexture = bs.getTexture(a[1] + 'Color')
+                                    t.colorMaskTexture = bs.getTexture(a[1] + 'ColorMask')
+                                    t.headModel = bs.getModel(a[1] + 'Head')
+                                    t.torsoModel = bs.getModel(a[1] + 'Torso')
+                                    t.pelvisModel = bs.getModel(a[1] + 'Pelvis')
+                                    t.upperArmModel = bs.getModel(a[1] + 'UpperArm')
+                                    t.foreArmModel = bs.getModel(a[1] + 'ForeArm')
+                                    t.handModel = bs.getModel(a[1] + 'Hand')
+                                    t.upperLegModel = bs.getModel(a[1] + 'UpperLeg')
+                                    t.lowerLegModel = bs.getModel(a[1] + 'LowerLeg')
+                                    t.toesModel = bs.getModel(a[1] + 'Toes')
+                                    t.style = a[1]
+                                    commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('Failed!! Usage: /spazall or /spaz number of list')
+
+                    except:
+                        bs.screenMessage('error', color=(1, 0, 0))
+
+                elif m in ('/inv', '/invall'):
+                    try:
+                        if m == '/invall':
+                            for i in bs.getSession().players:
+                                t = i.actor.node
+                                t.headModel = None
+                                t.torsoModel = None
+                                t.pelvisModel = None
+                                t.upperArmModel = None
+                                t.foreArmModel = None
+                                t.handModel = None
+                                t.upperLegModel = None
+                                t.lowerLegModel = None
+                                t.toesModel = None
+                                t.style = 'cyborg'
+
+                            commandSuccess = True
+                        elif not a:
+                            bsInternal._chatMessage('Failed!! Usage: /invall or /inv number of list')
+                        else:
+                            try:
+                                n = int(a[0])
+                                t = bs.getSession().players[n].actor.node
+                                t.headModel = None
+                                t.torsoModel = None
+                                t.pelvisModel = None
+                                t.upperArmModel = None
+                                t.foreArmModel = None
+                                t.handModel = None
+                                t.upperLegModel = None
+                                t.lowerLegModel = None
+                                t.toesModel = None
+                                t.style = 'cyborg'
+                                commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('Failed!! Usage: /invall or /inv number of list')
+
+                    except:
+                        bs.screenMessage('error', color=(1, 0, 0))
+
+                elif m == '/bunnyNOtavailabehere':
+                    if a == []:
+                        bsInternal._chatMessage('Using: /bunny count owner(number of list)')
+                    import BuddyBunny
+                    for i in range(int(a[0])):
+                        p = bs.getSession().players[int(a[1])]
+                        if 'bunnies' not in p.gameData:
+                            p.gameData['bunnies'] = BuddyBunny.BunnyBotSet(p)
+                        p.gameData['bunnies'].doBunny()
+
+                elif m in ('/tex', '/texall'):
+                    if m == '/texall':
+                        for i in bs.getSession().players:
+                            try:
+                                i.actor.node.colorMaskTexture = bs.getTexture('egg1')
+                                i.actor.node.colorTexture = bs.getTexture('egg1')
+                            except:
+                                print
+                                'error'
+                            else:
+                                commandSuccess = True
+
+                    else:
+                        try:
+                            n = int(a[0])
+                            bs.getSession().players[n].actor.node.colorMaskTexture = bs.getTexture('egg1')
+                            bs.getSession().players[n].actor.node.colorTexture = bs.getTexture('egg1')
+                            commandSuccess = True
+                        except:
+                            bs.screenMessage('Error!', color=(1, 0, 0))
+
+
+                elif level > 1:
+                    if m in ('/freeze', '/freezeall'):
+                        if m == '/freezeall':
+                            for i in bs.getSession().players:
+                                try:
+                                    i.actor.node.handleMessage(bs.FreezeMessage())
+                                    commandSuccess = True
+                                except:
+                                    pass
+
+
+                        else:
+                            try:
+                                bs.getSession().players[int(a[0])].actor.node.handleMessage(bs.FreezeMessage())
+                                commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('Failed!! Usage: /freezeall or /freeze number of list')
+
+                    elif m in ('/thaw', '/thawall'):
+                        if m == '/thawall':
+                            for i in bs.getSession().players:
+                                try:
+                                    i.actor.node.handleMessage(bs.ThawMessage())
+                                except:
+                                    pass
+
+                            commandSuccess = True
+                        elif a == []:
+                            bsInternal._chatMessage('Failed!! Usage: /thawall or number of list')
+                        else:
+                            try:
+                                bs.getSession().players[int(a[0])].actor.node.handleMessage(bs.ThawMessage())
+                                commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('Failed!! Usage: /thawall or /thaw number of list')
+
+                    elif m in ('/sleep', '/sleepall'):
+                        if m == '/sleepall':
+                            for i in bs.getSession().players:
+                                try:
+                                    i.actor.node.handleMessage('knockout', 5000)
+                                except:
+                                    pass
+
+                            commandSuccess = True
+
+                        else:
+                            try:
+                                bs.getSession().players[int(a[0])].actor.node.handleMessage('knockout', 10000)
+                                commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('Failed!! Usage: /sleepall or /sleep number of list')
+
+                    elif m in ('/kill', '/killall'):
+                        if m == '/killall':
+                            for i in bs.getSession().players:
+                                try:
+                                    i.actor.node.handleMessage(bs.DieMessage())
+                                except:
+                                    pass
+
+                            commandSuccess = True
+
+                        else:
+                            try:
+                                bs.getSession().players[int(a[0])].actor.node.handleMessage(bs.DieMessage())
+                                commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('Failed!! Usage: /killall or /kill number of list')
+
+                    elif m == '/curse':
+                        if a == []:
+                            bsInternal._chatMessage('Using: /curse all or number of list')
+                        elif a[0] == 'all':
+                            for i in bs.getSession().players:
+                                try:
+                                    i.actor.curse()
+                                except:
+                                    pass
+
+                            commandSuccess = True
+                        else:
+                            try:
+                                bs.getSession().players[int(a[0])].actor.curse()
+                                commandSuccess = True
+                            except:
+                                pass
+
+                    elif m == '/floater' and level > 3:
+                        playerlist = bsInternal._getForegroundHostActivity(
+                        ).players
+                        if not hasattr(bsInternal._getForegroundHostActivity(),
+                                       'flo'):
+                            import floater
+                            bsInternal._getForegroundHostActivity().flo = floater.Floater(
+                                bsInternal._getForegroundHostActivity()._mapType())
+                        floater = bsInternal._getForegroundHostActivity().flo
+                        if floater.controlled:
+                            bs.screenMessage(
+                                'Floater is already being controlled',
+                                color=(1, 0, 0))
+                            return
+                        for i in playerlist:
+                            if i.getInputDevice().getClientID() == clientID:
+                                clientID = i.getInputDevice().getClientID()
+                                bs.screenMessage(
+                                    'You Gained Control Over The Floater!',
+                                    clients=[clientID],
+                                    transient=True,
+                                    color=(0, 1, 1))
+
+                                def dis(i, floater):
+                                    i.actor.node.invincible = False
+                                    i.resetInput()
+                                    i.actor.connectControlsToPlayer()
+                                    floater.dis()
+
+                                # bs.gameTimer(15000,bs.Call(dis,i,floater))
+                                ps = i.actor.node.position
+                                i.actor.node.invincible = True
+                                floater.node.position = (ps[0], ps[1] + 1.5,
+                                                         ps[2])
+                                i.actor.node.holdNode = bs.Node(None)
+                                i.actor.node.holdNode = floater.node2
+                                i.actor.disconnectControlsFromPlayer()
+                                i.resetInput()
+                                floater.sourcePlayer = i
+                                floater.con()
+                                i.assignInputCall('pickUpPress', floater.up)
+                                i.assignInputCall('pickUpRelease', floater.upR)
+                                i.assignInputCall('jumpPress', floater.down)
+                                i.assignInputCall('jumpRelease', floater.downR)
+                                i.assignInputCall('bombPress', floater.drop)
+                                i.assignInputCall('punchPress',
+                                                  bs.Call(dis, i, floater))
+                                i.assignInputCall('upDown', floater.updown)
+                                i.assignInputCall('leftRight',
+                                                  floater.leftright)
+                                i.actor.afk_checker = None
+
+                    elif m == '/sm':
+                        bs.getSharedObject('globals').slowMotion = bs.getSharedObject('globals').slowMotion == False
+                        commandSuccess = True
+
+                    elif m == '/end':
+                        try:
+                            bsInternal._getForegroundHostActivity().endGame()
+                            commandSuccess = True
+                        except:
+                            pass
+
+
+
+
+                    elif level > 2:
+                        if m == '/quit' and level > 3:
+                            commandSuccess = True
+                            bsInternal.quit()
+                        elif m == '/kick':
+                            if a == []:
+                                bsInternal._chatMessage('Using: /kick name or number of list')
+                            elif len(a[0]) > 3:
+                                self.kickByNick(a[0])
+                                commandSuccess = True
+                            else:
+                                try:
+                                    s = int(a[0])
+                                    bsInternal._disconnectClient(int(a[0]))
+                                    commandSuccess = True
+                                except:
+                                    self.kickByNick(a[0])
+                                    commandSuccess = True
+
+                        elif m == '/admin' and level > 3:
+                            clID = int(a[0])
+                            updated_admins = gph.adminHashes
+                            for client in bsInternal._getGameRoster():
+                                if client['clientID'] == clID:
+                                    cl_str = client['displayString']
+
+                            for i in bsInternal._getForegroundHostActivity().players:
+                                if i.getInputDevice().getClientID() == clID:
+                                    newadmin = i.get_account_id()
+                                    if a[1] == 'add':
+                                        if newadmin not in updated_admins:
+                                            gph.adminHashes.append(newadmin)
+                                            commandSuccess = True
+                                            updated_admins = gph.adminHashes
+                                            with open(bs.getEnvironment()[
+                                                          'systemScriptsDirectory'] + '/membersidlogged.txt',
+                                                      mode='a+') as (fi):
+                                                fi.write(cl_str + ' || ' + newadmin + '\n')
+                                                fi.close()
+                                    elif a[1] == 'remove':
+                                        if newadmin in updated_admins:
+                                            gph.adminHashes.remove(newadmin)
+                                            commandSuccess = True
+                                            updated_admins = gph.adminHashes
+
+                            if len(a) > 2:
+                                if a[2] == 'permanent' and level > 3:
+                                    with open(bs.getEnvironment()[
+                                                  'systemScriptsDirectory'] + '/getPermissionsHashes.py') as (file):
+                                        s = [row for row in file]
+                                        s[0] = 'adminHashes = ' + str(updated_admins) + '\n'
+                                        f = open(
+                                            bs.getEnvironment()['systemScriptsDirectory'] + '/getPermissionsHashes.py',
+                                            'w')
+                                        for i in s:
+                                            f.write(i)
+
+                                        f.close()
+                        elif m == '/vip' and level > 3:
+                            clID = int(a[0])
+                            updated_admins = gph.vipHashes
+                            for client in bsInternal._getGameRoster():
+                                if client['clientID'] == clID:
+                                    cl_str = client['displayString']
+
+                            for i in bsInternal._getForegroundHostActivity().players:
+                                if i.getInputDevice().getClientID() == clID:
+                                    newadmin = i.get_account_id()
+                                    if a[1] == 'add':
+                                        if newadmin not in updated_admins:
+                                            gph.vipHashes.append(newadmin)
+                                            commandSuccess = True
+                                            updated_admins = gph.vipHashes
+                                            with open(bs.getEnvironment()[
+                                                          'systemScriptsDirectory'] + '/membersidlogged.txt',
+                                                      mode='a+') as (fi):
+                                                fi.write(cl_str + ' || ' + newadmin + '\n')
+                                                fi.close()
+                                    elif a[1] == 'remove':
+                                        if newadmin in updated_admins:
+                                            gph.vipHashes.remove(newadmin)
+                                            commandSuccess = True
+                                            updated_admins = gph.vipHashes
+
+                            if len(a) > 2:
+                                if a[2] == 'permanent' and level > 3:
+                                    with open(bs.getEnvironment()[
+                                                  'systemScriptsDirectory'] + '/getPermissionsHashes.py') as (file):
+                                        s = [row for row in file]
+                                        s[1] = 'vipHashes = ' + str(updated_admins) + '\n'
+                                        f = open(
+                                            bs.getEnvironment()['systemScriptsDirectory'] + '/getPermissionsHashes.py',
+                                            'w')
+                                        for i in s:
+                                            f.write(i)
+
+                                        f.close()
+
+                        elif m == '/remove':
+                            if a == []:
+                                bsInternal._chatMessage('Using: /remove all or number of list')
+                            elif a[0] == 'all':
+                                for i in bs.getSession().players:
+                                    try:
+                                        i.removeFromGame()
+                                    except:
+                                        pass
+
+                                commandSuccess = True
+                            else:
+                                bs.getSession().players[int(a[0])].removeFromGame()
+                                commandSuccess = True
+
+
+                        elif m in ('/hug', '/hugall'):
+                            try:
+                                if m == '/hugall':
+                                    try:
+                                        bsInternal._getForegroundHostActivity().players[0].actor.node.holdNode = \
+                                        bsInternal._getForegroundHostActivity().players[1].actor.node
+                                    except:
+                                        pass
+                                    else:
+                                        try:
+                                            bsInternal._getForegroundHostActivity().players[1].actor.node.holdNode = \
+                                            bsInternal._getForegroundHostActivity().players[0].actor.node
+                                        except:
+                                            pass
+                                        else:
+                                            try:
+                                                bsInternal._getForegroundHostActivity().players[3].actor.node.holdNode = \
+                                                bsInternal._getForegroundHostActivity().players[2].actor.node
+                                            except:
+                                                pass
+                                            else:
+                                                try:
+                                                    bsInternal._getForegroundHostActivity().players[
+                                                        4].actor.node.holdNode = \
+                                                    bsInternal._getForegroundHostActivity().players[3].actor.node
+                                                except:
+                                                    pass
+
+                                            try:
+                                                bsInternal._getForegroundHostActivity().players[5].actor.node.holdNode = \
+                                                bsInternal._getForegroundHostActivity().players[6].actor.node
+                                            except:
+                                                pass
+
+                                        try:
+                                            bsInternal._getForegroundHostActivity().players[6].actor.node.holdNode = \
+                                            bsInternal._getForegroundHostActivity().players[7].actor.node
+                                        except:
+                                            pass
+
+                                    commandSuccess = True
+                                elif a == []:
+                                    bsInternal._chatMessage('Failed!! Usage: /hugall or /hug number of list')
+                                else:
+                                    try:
+                                        bsInternal._getForegroundHostActivity().players[int(a[0])].actor.node.holdNode = \
+                                        bsInternal._getForegroundHostActivity().players[int(a[1])].actor.node
+                                        commandSuccess = True
+                                    except:
+                                        bsInternal._chatMessage('Failed!! Usage: /hugall or /hug number of list')
+
+                            except:
+                                bs.screenMessage('Error!', color=(1, 0, 0))
+
+                        elif m == '/tint':
+                            if a == []:
+                                bsInternal._chatMessage('Using: /tint R G B')
+                                bsInternal._chatMessage('OR')
+                                bsInternal._chatMessage('Using: /tint r bright speed')
+                            elif a[0] == 'r':
+                                m = 1.3 if a[1] is None else float(a[1])
+                                s = 1000 if a[2] is None else float(a[2])
+                                bsUtils.animateArray(bs.getSharedObject('globals'), 'tint', 3,
+                                                     {0: (1 * m, 0, 0), s: (0, 1 * m, 0), s * 2: (0, 0, 1 * m),
+                                                      s * 3: (1 * m, 0, 0)}, True)
+                                commandSuccess = True
+                            else:
+                                try:
+                                    if a[1] is not None:
+                                        bs.getSharedObject('globals').tint = (
+                                            float(a[0]), float(a[1]), float(a[2]))
+                                        commandSuccess = True
+                                    else:
+                                        bs.screenMessage('Error!', color=(1, 0, 0))
+                                except:
+                                    bs.screenMessage('Error!', color=(1, 0, 0))
+
+                        elif m == '/pause':
+                            bs.getSharedObject('globals').paused = bs.getSharedObject('globals').paused == False
+                            commandSuccess = True
+                        elif m == '/cameraMode':
+                            try:
+                                if bs.getSharedObject('globals').cameraMode == 'follow':
+                                    bs.getSharedObject('globals').cameraMode = 'rotate'
+                                else:
+                                    bs.getSharedObject('globals').cameraMode = 'follow'
+                                commandSuccess = True
+                            except:
+                                pass
+
+                        elif m == '/lm':
+                            arr = []
+                            for i in range(100):
+                                try:
+                                    arr.append(bsInternal._getChatMessages()[(-1 - i)])
+                                except:
+                                    pass
+
+                            arr.reverse()
+                            for i in arr:
+                                bsInternal._chatMessage(i)
+
+                            commandSuccess = True
+                        elif m == '/gp':
+                            if a == []:
+                                bsInternal._chatMessage('Using: /gp number of list')
+                            else:
+                                s = bsInternal._getForegroundHostSession()
+                                for i in s.players[int(a[0])].getInputDevice()._getPlayerProfiles():
+                                    try:
+                                        bsInternal._chatMessage(i)
+                                    except:
+                                        pass
+
+                                commandSuccess = True
+                        elif m == '/icy':
+                            bsInternal._getForegroundHostActivity().players[int(a[0])].actor.node = \
+                            bsInternal._getForegroundHostActivity().players[int(a[1])].actor.node
+                            commandSuccess = True
+                        elif m in ('/fly', '/flyall'):
+                            if m == '/flyall':
+                                for i in bsInternal._getForegroundHostActivity().players:
+                                    i.actor.node.fly = True
+
+                                commandSuccess = True
+                            elif a == []:
+                                bsInternal._chatMessage('Failed!!! Usage: /flyall or /fly number of list')
+                            else:
+                                try:
+                                    bsInternal._getForegroundHostActivity().players[int(a[0])].actor.node.fly = \
+                                    bsInternal._getForegroundHostActivity().players[int(a[0])].actor.node.fly == False
+                                    commandSuccess = True
+                                except:
+                                    bsInternal._chatMessage('Failed!!! Usage: /flyall or /fly number of list')
+
+                        elif m == '/floorReflection':
+                            bs.getSharedObject('globals').floorReflection = bs.getSharedObject(
+                                'globals').floorReflection == False
+                        elif m == '/ac':
+                            if a == []:
+                                bsInternal._chatMessage('Using: /ac R G B')
+                                bsInternal._chatMessage('OR')
+                                bsInternal._chatMessage('Using: /ac r bright speed')
+                            elif a[0] == 'r':
+                                m = 1.3 if a[1] is None else float(a[1])
+                                s = 1000 if a[2] is None else float(a[2])
+                                bsUtils.animateArray(bs.getSharedObject('globals'), 'ambientColor', 3,
+                                                     {0: (1 * m, 0, 0), s: (0, 1 * m, 0), s * 2: (0, 0, 1 * m),
+                                                      s * 3: (1 * m, 0, 0)}, True)
+                            else:
+                                try:
+                                    if a[1] is not None:
+                                        bs.getSharedObject('globals').ambientColor = (
+                                            float(a[0]), float(a[1]), float(a[2]))
+                                    else:
+                                        bs.screenMessage('Error!', color=(1, 0, 0))
+                                except:
+                                    bs.screenMessage('Error!', color=(1, 0, 0))
+
+                        elif m == '/iceOff':
+                            try:
+                                activity.getMap().node.materials = [
+                                    bs.getSharedObject('footingMaterial')]
+                                activity.getMap().isHockey = False
+                            except:
+                                pass
+                            else:
+                                try:
+                                    activity.getMap().floor.materials = [
+                                        bs.getSharedObject('footingMaterial')]
+                                    activity.getMap().isHockey = False
+                                except:
+                                    pass
+
+                                for i in activity.players:
+                                    i.actor.node.hockey = False
+
+                            commandSuccess = True
+                        elif m == '/maxPlayers' and level > 3:
+                            if a == []:
+                                bsInternal._chatMessage('Using: /maxPlayers count of players')
+                            else:
+                                try:
+                                    bsInternal._getForegroundHostSession()._maxPlayers = int(a[0])
+                                    bsInternal._setPublicPartyMaxSize(int(a[0]))
+                                    bsInternal._chatMessage('Maximum players set to ' + str(int(a[0])))
+                                except:
+                                    bs.screenMessage('Error!', color=(1, 0, 0))
+
+                                commandSuccess = True
+                        elif m in ('/heal', '/healall'):
+                            if m == '/healall':
+                                for i in bs.getActivity().players:
+                                    try:
+                                        if i.actor.exists():
+                                            i.actor.node.handleMessage(bs.PowerupMessage(powerupType='health'))
+                                    except Exception:
+                                        pass
+                                    else:
+                                        commandSuccess = True
+
+                            elif a == []:
+                                bsInternal._chatMessage('Failed!! Usage: /healall or /heal number of list')
+                            else:
+                                try:
+                                    bs.getActivity().players[int(a[0])].actor.node.handleMessage(
+                                        bs.PowerupMessage(powerupType='health'))
+                                    commandSuccess = True
+                                except Exception:
+                                    bsInternal._chatMessage('Failed!! Usage: /healall or /heal number of list')
+
+                        elif m == '/gm' and level > 3:
+                            try:
+                                if a == []:
+                                    for i in range(len(activity.players)):
+                                        if activity.players[i].getInputDevice().getClientID() == clientID:
+                                            activity.players[i].actor.node.hockey = activity.players[
+                                                                                        i].actor.node.hockey == False
+                                            activity.players[i].actor.node.invincible = activity.players[
+                                                                                            i].actor.node.invincible == False
+                                            activity.players[i].actor._punchPowerScale = 5 if activity.players[
+                                                                                                  i].actor._punchPowerScale == 1.2 else 1.2
+
+                                    commandSuccess = True
+                                else:
+                                    activity.players[int(a[0])].actor.node.hockey = activity.players[int(
+                                        a[0])].actor.node.hockey == False
+                                    activity.players[int(a[0])].actor.node.invincible = activity.players[int(
+                                        a[0])].actor.node.invincible == False
+                                    activity.players[int(a[0])].actor._punchPowerScale = 5 if activity.players[int(
+                                        a[0])].actor._punchPowerScale == 1.2 else 1.2
+                                    commandSuccess = True
+                            except:
+                                bsInternal._chatMessage('PLAYER NOT FOUND')
+
+                        elif m == '/reflections':
+                            if len(a) < 2:
+                                bsInternal._chatMessage('Usage: /reflections type(1/0) scale')
+                            else:
+                                rs = [
+                                    int(a[1])]
+                                typee = 'soft' if int(a[0]) == 0 else 'powerup'
+                                try:
+                                    bsInternal._getForegroundHostActivity().getMap().node.reflection = typee
+                                    bsInternal._getForegroundHostActivity().getMap().node.reflectionScale = rs
+                                    print
+                                    'node'
+                                except:
+                                    pass
+                                else:
+                                    try:
+                                        bsInternal._getForegroundHostActivity().getMap().bg.reflection = typee
+                                        bsInternal._getForegroundHostActivity().getMap().bg.reflectionScale = rs
+                                        print
+                                        'bg'
+                                    except:
+                                        pass
+                                    else:
+                                        try:
+                                            bsInternal._getForegroundHostActivity().getMap().floor.reflection = typee
+                                            bsInternal._getForegroundHostActivity().getMap().floor.reflectionScale = rs
+                                            print
+                                            'floor'
+                                        except:
+                                            pass
+
+                                    try:
+                                        bsInternal._getForegroundHostActivity().getMap().center.reflection = typee
+                                        bsInternal._getForegroundHostActivity().getMap().center.reflectionScale = rs
+                                        print
+                                        'center'
+                                    except:
+                                        pass
+
+                                commandSuccess = True
+                        elif m == '/shatter':
+                            if a == []:
+                                bsInternal._chatMessage('Using: /shatter all or number of list')
+                            elif a[0] == 'all':
+                                for i in bsInternal._getForegroundHostActivity().players:
+                                    i.actor.node.shattered = int(a[1])
+
+                                commandSuccess = True
+                            else:
+                                bsInternal._getForegroundHostActivity().players[int(a[0])].actor.node.shattered = int(
+                                    a[1])
+                                commandSuccess = True
+                        elif m == '/cm':
+                            if a == []:
+                                time = 8000
+                            else:
+                                time = int(a[0])
+                                op = 0.08
+                                std = bs.getSharedObject('globals').vignetteOuter
+                                bsUtils.animateArray(bs.getSharedObject('globals'), 'vignetteOuter', 3,
+                                                     {0: bs.getSharedObject('globals').vignetteOuter, 17000: (0, 1, 0)})
+                            try:
+                                bsInternal._getForegroundHostActivity().getMap().node.opacity = op
+                            except:
+                                pass
+                            else:
+                                try:
+                                    bsInternal._getForegroundHostActivity().getMap().bg.opacity = op
+                                except:
+                                    pass
+                                else:
+                                    try:
+                                        bsInternal._getForegroundHostActivity().getMap().bg.node.opacity = op
+                                    except:
+                                        pass
+                                    else:
+                                        try:
+                                            bsInternal._getForegroundHostActivity().getMap().node1.opacity = op
+                                        except:
+                                            pass
+                                        else:
+                                            try:
+                                                bsInternal._getForegroundHostActivity().getMap().node2.opacity = op
+                                            except:
+                                                pass
+
+                                            try:
+                                                bsInternal._getForegroundHostActivity().getMap().node3.opacity = op
+                                            except:
+                                                pass
+
+                                        try:
+                                            bsInternal._getForegroundHostActivity().getMap().steps.opacity = op
+                                        except:
+                                            pass
+
+                                    try:
+                                        bsInternal._getForegroundHostActivity().getMap().floor.opacity = op
+                                    except:
+                                        pass
+
+                                try:
+                                    bsInternal._getForegroundHostActivity().getMap().center.opacity = op
+                                except:
+                                    pass
+
+                            def off():
+                                op = 1
+                                try:
+                                    bsInternal._getForegroundHostActivity().getMap().node.opacity = op
+                                except:
+                                    pass
+                                else:
+                                    try:
+                                        bsInternal._getForegroundHostActivity().getMap().bg.opacity = op
+                                    except:
+                                        pass
+                                    else:
+                                        try:
+                                            bsInternal._getForegroundHostActivity().getMap().bg.node.opacity = op
+                                        except:
+                                            pass
+                                        else:
+                                            try:
+                                                bsInternal._getForegroundHostActivity().getMap().node1.opacity = op
+                                            except:
+                                                pass
+                                            else:
+                                                try:
+                                                    bsInternal._getForegroundHostActivity().getMap().node2.opacity = op
+                                                except:
+                                                    pass
+
+                                                try:
+                                                    bsInternal._getForegroundHostActivity().getMap().node3.opacity = op
+                                                except:
+                                                    pass
+
+                                            try:
+                                                bsInternal._getForegroundHostActivity().getMap().steps.opacity = op
+                                            except:
+                                                pass
+
+                                        try:
+                                            bsInternal._getForegroundHostActivity().getMap().floor.opacity = op
+                                        except:
+                                            pass
+
+                                    try:
+                                        bsInternal._getForegroundHostActivity().getMap().center.opacity = op
+                                    except:
+                                        pass
+
+                                bsUtils.animateArray(bs.getSharedObject('globals'), 'vignetteOuter', 3,
+                                                     {0: bs.getSharedObject('globals').vignetteOuter, 100: std})
+
+                            bs.gameTimer(time, bs.Call(off))
+                        elif m == '/help not avilable tooo':
+                            bsInternal._chatMessage(bs.Lstr(resource='help1').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help2').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help3').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help4').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help5').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help6').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help7').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help8').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help9').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help10').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help11').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help12').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help13').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help14').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help15').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help16').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help17').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help18').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help19').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help20').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help21').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help22').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help23').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help24').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help25').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help26').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help27').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help28').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help29').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help30').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help31').evaluate())
+                            bsInternal._chatMessage(bs.Lstr(resource='help32').evaluate())
+                        elif level > 3:
+                            if m == '/partyname':
+                                if True:
+                                    if a == []:
+                                        bsInternal._chatMessage('Usage: /partyname Name of party')
+                                    else:
+                                        # print 'value of a[0] = ' + a[0]
+                                        name = a[0].replace('_', ' ')
+                                        try:
+                                            bsInternal._setPublicPartyName(name)
+                                            bsInternal._chatMessage('Party name changed to "' + name + '"')
+                                            commandSuccess = True
+                                        except:
+                                            bs.screenMessage('failed to change')
+
+                            elif m == '/public':
+                                if True:
+                                    if a == []:
+                                        bsInternal._chatMessage('Usage: /public 0 or 1')
+                                    elif a[0] == '0':
+                                        try:
+                                            bsInternal._setPublicPartyEnabled(False)
+                                            bsInternal._chatMessage('Party is Private')
+                                            commandSuccess = True
+                                        except:
+                                            bs.screenMessage('failed to change')
+
+                                    elif a[0] == '1':
+                                        try:
+                                            bsInternal._setPublicPartyEnabled(True)
+                                            bsInternal._chatMessage('Party is Public')
+                                            commandSuccess = True
+                                        except:
+                                            bs.screenMessage('failed to change')
+
+                                    else:
+                                        bsInternal._chatMessage('Usage: /public 0 or 1')
+                            elif m == '/id':
+                                if True:
+                                    clID = int(a[0])
+                                    for i in bsInternal._getForegroundHostActivity().players:
+                                        if i.getInputDevice().getClientID() == clID:
+                                            bsInternal._chatMessage(i.get_account_id())
+                                            commandSuccess = True
+
+
+                            elif m == '/customtag':
+                                if True:
+                                    clID = int(a[0])
+                                    for i in bsInternal._getForegroundHostActivity().players:
+                                        if i.getInputDevice().getClientID() == clID:
+                                            newadmin = i.get_account_id()
+                                            if a[1] == 'add':
+                                                gph.customtagHashes.append(newadmin)
+                                                commandSuccess = True
+                                            elif a[1] == 'remove':
+                                                if newadmin in gph.dragonHashes:
+                                                    gph.customtagHashes.remove(newadmin)
+                                                    commandSuccess = True
+
+                            elif m == '/clear':
+                                if True:
+                                    gph.customlist = []
+                                    gph.customtagHashes = []
+                                    gph.dragonHashes = []
+                                    gph.adminHashes = []
+
+                            elif m == '/ban':
+                                if a != []:
+                                    bannedId = None
+                                    aid = None
+                                    try:
+                                        clID = int(a[0])
+                                        for i in bsInternal._getGameRoster():
+                                            if i['clientID'] == clID:
+                                                aid = i['displayString']
+                                                for i in bsInternal._getForegroundHostActivity().players:
+                                                    if i.getInputDevice().getClientID() == clID:
+                                                        bannedID = i.get_account_id()
+                                                        name = i.getName()
+
+                                        if aid is not None:
+                                            gph.banlist[bannedID] = aid
+                                            with open(bs.getEnvironment()[
+                                                          'systemScriptsDirectory'] + '/getPermissionsHashes.py') as (
+                                            file):
+                                                s = [row for row in file]
+                                                s[2] = 'banlist = ' + str(gph.banlist) + '\n'
+                                                f = open(bs.getEnvironment()[
+                                                             'systemScriptsDirectory'] + '/getPermissionsHashes.py',
+                                                         'w')
+                                                for i in s:
+                                                    f.write(i)
+                                                f.close()
+                                            bsInternal._chatMessage('banned ' + name)
+                                            bsInternal._disconnectClient(clID)
+                                            commandSuccess = True
+                                    except Exception:
+                                        bsInternal._chatMessage('player not found')
+
+                            elif m == '/custom':
+                                try:
+                                    attributes = len(a)
+                                    clID = int(a[0])
+                                    for i in bsInternal._getForegroundHostActivity().players:
+                                        if i.getInputDevice().getClientID() == clID:
+                                            customer = i.get_account_id()
+                                            if a[1] == 'add':
+                                                if customer in gph.customlist:
+                                                    gph.customlist.pop(customer)
+                                                try:
+                                                    if attributes > 2:
+                                                        tag = a[2]
+                                                        if '\\' in tag:
+                                                            tag = tag.replace('\\d',
+                                                                              ('\\ue048').decode('unicode-escape'))
+                                                            tag = tag.replace('\\c',
+                                                                              ('\\ue043').decode('unicode-escape'))
+                                                            tag = tag.replace('\\h',
+                                                                              ('\\ue049').decode('unicode-escape'))
+                                                            tag = tag.replace('\\s',
+                                                                              ('\\ue046').decode('unicode-escape'))
+                                                            tag = tag.replace('\\n',
+                                                                              ('\\ue04b').decode('unicode-escape'))
+                                                            tag = tag.replace('\\f',
+                                                                              ('\\ue04f').decode('unicode-escape'))
+                                                        gph.customlist[customer] = tag
+                                                        if attributes > 3:
+                                                            if a[3] == 'permanent' and level > 5:
+                                                                with open(bs.getEnvironment()[
+                                                                              'systemScriptsDirectory'] + '/getPermissionsHashes.py') as (
+                                                                file):
+                                                                    s = [row for row in file]
+                                                                    s[5] = 'customlist = ' + str(gph.customlist) + '\n'
+                                                                    f = open(bs.getEnvironment()[
+                                                                                 'systemScriptsDirectory'] + '/getPermissionsHashes.py',
+                                                                             'w')
+                                                                    for i in s:
+                                                                        f.write(i)
+
+                                                                    f.close()
+                                                except:
+                                                    print
+                                                    'inside exception but adding into customHashes'
+                                                    gph.customtagHashes.append(customer)
+
+                                                commandSuccess = True
+                                            elif a[1] == 'remove':
+                                                if customer in gph.customtagHashes:
+                                                    gph.customtagHashes.remove(customer)
+                                                    commandSuccess = True
+                                                if customer in gph.customlist:
+                                                    gph.customlist.pop(customer)
+                                                    commandSuccess = True
+                                                if attributes > 2:
+                                                    if a[2] == 'permanent':
+                                                        with open(bs.getEnvironment()[
+                                                                      'systemScriptsDirectory'] + '/getPermissionsHashes.py') as (
+                                                        file):
+                                                            s = [row for row in file]
+                                                            s[5] = 'customlist = ' + str(gph.customlist) + '\n'
+                                                            f = open(bs.getEnvironment()[
+                                                                         'systemScriptsDirectory'] + '/getPermissionsHashes.py',
+                                                                     'w')
+                                                            for i in s:
+                                                                f.write(i)
+
+                                                            f.close()
+
+                                except:
+                                    pass
+
+                            elif m == '/whois':
+                                try:
+                                    clID = int(a[0])
+                                    ID = ''
+                                    for i in bsInternal._getForegroundHostActivity().players:
+                                        if i.getInputDevice().getClientID() == clID:
+                                            ID = i.get_account_id()
+                                            name = i.getName(True, True)
+                                    if ID is not '':
+                                        with open('logPlayers.json', 'r') as f:
+                                            allPlayers = json.loads(f.read())
+                                            allID = allPlayers[ID]
+                                            string = 'Login ID of %s is:' % name
+                                            for i in allID:
+                                                # bsInternal._chatMessage(i)
+                                                string += '\n' + i
+                                            # commandSuccess = True
+                                            bs.screenMessage(string, transient=True, color=(1, 1, 1))
+                                except:
+                                    print
+                                    'who is exception'
+
+                            elif m == '/text':
+                                from BsTextOnMap import texts
+                                if a == []:
+                                    bsInternal._chatMessage(
+                                        "Usage: /text showall or /text add [text] or /text del [textnumber]")
+                                elif a[0] == 'add' and len(a) > 1:
+                                    # get whole sentence from argument list
+                                    newText = u''
+                                    for i in range(1, len(a)):
+                                        newText += a[i] + ' '
+                                    # print newText
+                                    texts.append(newText)
+
+                                    # write to file
+                                    with open(bs.getEnvironment()['systemScriptsDirectory'] + '/BsTextOnMap.py') as (
+                                    file):
+                                        s = [row for row in file]
+                                        s[0] = 'texts = ' + str(texts) + '\n'
+                                        f = open(bs.getEnvironment()['systemScriptsDirectory'] + '/BsTextOnMap.py', 'w')
+                                        for i in s:
+                                            f.write(i)
+                                        f.close()
+                                        commandSuccess = True
+                                elif a[0] == 'showall':
+                                    for i in range(len(texts)):
+                                        # print texts(i)
+                                        bsInternal._chatMessage(str(i) + '. ' + texts[i])
+                                    commandSuccess = True
+                                elif a[0] == 'del' and len(a) > 1:
+                                    try:
+                                        if len(texts) > 1:
+                                            texts.pop(int(a[1]))
+                                            # write to file
+                                            with open(bs.getEnvironment()[
+                                                          'systemScriptsDirectory'] + '/BsTextOnMap.py') as (file):
+                                                s = [row for row in file]
+                                                s[0] = 'texts = ' + str(texts) + '\n'
+                                                f = open(
+                                                    bs.getEnvironment()['systemScriptsDirectory'] + '/BsTextOnMap.py',
+                                                    'w')
+                                                for i in s:
+                                                    f.write(i)
+                                                f.close()
+                                                commandSuccess = True
+                                        else:
+                                            bs.screenMessage("At least one text should be present", (1, 0, 0))
+                                    except:
+                                        pass
+                                else:
+                                    bsInternal._chatMessage(
+                                        "Usage: /text showall or /text add [text] or /text del [textnumber]")
+                            elif m == '/whoinqueue':
+                                def _onQueueQueryResult(result):
+                                    # print result, ' is result'
+                                    inQueue = result['e']
+                                    # print inQueue, ' is inQueue'
+                                    string = 'No one '
+                                    if inQueue != []:
+                                        string = ''
+                                        for queue in inQueue:
+                                            # print queue[3]
+                                            string += queue[3] + ' '
+                                    bsInternal._chatMessage(string + 'is in the queue')
+
+                                bsInternal._addTransaction(
+                                    {'type': 'PARTY_QUEUE_QUERY',
+                                     'q': "p_S-l150a7a1d-0f12-43de-a3bf-467a7a5bcd72_1029295_13.233.116.32_43210"},
+                                    callback=bs.Call(_onQueueQueryResult))
+                                bsInternal._runTransactions()
+
+                else:
+                    bs.screenMessage('Failed', color=(1, 0, 0))
+        return
+
+
+c = chatOptions()
+
+
+def cmd(msg, clientID):
+    c.opt(clientID, msg)
+    if commandSuccess:
+        if commandByCoin:
+            coinSystem.addCoins(user, costOfCommand * -1)
+            bsInternal._chatMessage('Success! That cost you ' + bs.getSpecialChar('ticket') + str(costOfCommand))
+        else:
+            try:
+                with bs.Context(bsInternal._getForegroundHostActivity()):
+                    bs.screenMessage(reply, color=(0.1, 1, 0.1))
+                # bsInternal._chatMessage(reply)
+            except:
+                pass
+    return
