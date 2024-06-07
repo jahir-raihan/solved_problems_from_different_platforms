@@ -1514,7 +1514,6 @@ class chatOptions(object):
 
 c = chatOptions()
 
-
 def cmd(msg, clientID):
     c.opt(clientID, msg)
     if commandSuccess:
